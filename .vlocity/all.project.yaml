@@ -1,0 +1,2207 @@
+Name: all
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - accessControlPolicies/null_1664814692293.policy
+    - accessControlPolicies/null_1664814692807.policy
+    - accessControlPolicies/null_1673336468029.policy
+    - accessControlPolicies/null_1673336468538.policy
+    - accessControlPolicies/null_1682069088636.policy
+    - accessControlPolicies/null_1682069089025.policy
+    - appMenus/AppSwitcher.appMenu
+    - appMenus/Salesforce1.appMenu
+    - applications/Enterprise_Sales.app
+    - applications/Industries_CPQ.app
+    - applications/Platform.app
+    - assignmentRules/Case.assignmentRules
+    - assignmentRules/Lead.assignmentRules
+    - aura/B2BCmexSelfServiceNavigationBar
+    - aura/forgotPassword
+    - aura/loginForm
+    - aura/selfRegister
+    - aura/setExpId
+    - aura/setStartUrl
+    - autoResponseRules/Case.autoResponseRules
+    - autoResponseRules/Lead.autoResponseRules
+    - classes/B2BCmexSiteAuthVFController.cls
+    - classes/B2BCmexSiteAuthVFControllerTest.cls
+    - classes/ChangePasswordController.cls
+    - classes/ChangePasswordControllerTest.cls
+    - classes/CommunitiesLandingController.cls
+    - classes/CommunitiesLandingControllerTest.cls
+    - classes/CommunitiesLoginController.cls
+    - classes/CommunitiesLoginControllerTest.cls
+    - classes/CommunitiesSelfRegConfirmController.cls
+    - classes/CommunitiesSelfRegConfirmControllerTest.cls
+    - classes/CommunitiesSelfRegController.cls
+    - classes/CommunitiesSelfRegControllerTest.cls
+    - classes/CustomPricingPlanStepImpl.cls
+    - classes/CustomPricingPlanStepImplTest.cls
+    - classes/ESMCustomMatrixEligibilityImpl.cls
+    - classes/ESMCustomMatrixEligibilityImplTest.cls
+    - classes/ESMSelfServiceCustomFunctions.cls
+    - classes/ForgotPasswordController.cls
+    - classes/ForgotPasswordControllerTest.cls
+    - classes/LightningForgotPasswordController.cls
+    - classes/LightningForgotPasswordControllerTest.cls
+    - classes/LightningLoginFormController.cls
+    - classes/LightningLoginFormControllerTest.cls
+    - classes/LightningSelfRegisterController.cls
+    - classes/LightningSelfRegisterControllerTest.cls
+    - classes/MicrobatchSelfRegController.cls
+    - classes/MicrobatchSelfRegControllerTest.cls
+    - classes/MyProfilePageController.cls
+    - classes/MyProfilePageControllerTest.cls
+    - classes/PricingPlanHelper.cls
+    - classes/SiteLoginController.cls
+    - classes/SiteLoginControllerTest.cls
+    - classes/SiteRegisterController.cls
+    - classes/SiteRegisterControllerTest.cls
+    - cleanDataServices/DataCloudCompanyMatch.cleanDataService
+    - cleanDataServices/DataCloudGeoLocation.cleanDataService
+    - cleanDataServices/DataCloudLeadAppend.cleanDataService
+    - communities/Internal Zone.community
+    - components/SiteFooter.component
+    - components/SiteHeader.component
+    - components/SiteLogin.component
+    - components/SitePoweredBy.component
+    - contentassets/platformLogo.asset
+    - customMetadata/%vlocity_namespace%__DRMatchingKey.CustomFieldMap.md
+    - customMetadata/%vlocity_namespace%__DRMatchingKey.OrchestrationDependencyDefinition.md
+    - customMetadata/%vlocity_namespace%__DRMatchingKey.OrchestrationScenario.md
+    - customMetadata/%vlocity_namespace%__FunctionDefinition.B2B_MatrixEligibility.md
+    - customMetadata/%vlocity_namespace%__FunctionDefinition.ListToObjects.md
+    - customMetadata/%vlocity_namespace%__VlocityDataPackConfiguration.CalculationMatrixVersion.md
+    - customMetadata/%vlocity_namespace%__VlocityDataPackConfiguration.CustomFieldMap.md
+    - customMetadata/%vlocity_namespace%__VlocityDataPackConfiguration.OrchestrationDependencyDefinition.md
+    - customMetadata/%vlocity_namespace%__VlocityDataPackConfiguration.OrchestrationItemDefinition.md
+    - customMetadata/%vlocity_namespace%__VlocityDataPackConfiguration.OrchestrationPlanDefinition.md
+    - customMetadata/%vlocity_namespace%__VPLExpress.GoogleMapAPI.md
+    - customMetadata/vbtapp__TrialforceSetupScript.realignLWCOSComponentIds.md
+    - customMetadata/vbtapp__TrialforceSetupScript.realignOSv2.md
+    - customMetadata/vbtapp__TrialforceSetupScript.RemoteSiteSettings.md
+    - customMetadata/vbtapp__TrialforceSetupScript.RunProductBatchJobs.md
+    - dashboards/CompanyDashboards/AdoptionDashboard.dashboard
+    - dashboards/CompanyDashboards/CompanyPerformanceDashboard.dashboard
+    - email/unfiled$public/CommunityChangePasswordEmailTemplate.email
+    - email/unfiled$public/CommunityChgEmailVerNewTemplate.email
+    - email/unfiled$public/CommunityChgEmailVerOldTemplate.email
+    - email/unfiled$public/CommunityDeviceActEmailTemplate.email
+    - email/unfiled$public/CommunityForgotPasswordEmailTemplate.email
+    - email/unfiled$public/CommunityHeadlessForgotPasswordTemplate.email
+    - email/unfiled$public/CommunityLockoutEmailTemplate.email
+    - email/unfiled$public/CommunityVerificationEmailTemplate.email
+    - email/unfiled$public/CommunityWelcomeEmailTemplate.email
+    - email/unfiled$public/ContactFollowUpSAMPLE.email
+    - email/unfiled$public/ExperienceCloudSelfRegMicroBatchSubErrorEmailTemplate.email
+    - email/unfiled$public/LeadsNewassignmentnotificationSAMPLE.email
+    - email/unfiled$public/LeadsWebtoLeademailresponseSAMPLE.email
+    - email/unfiled$public/SUPPORTCaseescalationnotificationSAMPLE.email
+    - email/unfiled$public/SUPPORTCaseResponsewithSolutionSAMPLE.email
+    - email/unfiled$public/SUPPORTNewassignmentnotificationSAMPLE.email
+    - email/unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE.email
+    - email/unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE.email
+    - email/unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE.email
+    - email/unfiled$public/SUPPORTWebtoCaseemailresponseSAMPLE.email
+    - entitlementProcesses/standard case.entitlementProcess
+    - escalationRules/Case.escalationRules
+    - flexipages/ContactCenter_UtilityBar.flexipage
+    - flexipages/CrisisCenter_UtilityBar.flexipage
+    - flexipages/Default_Opportunity_CPQ_Record_Page.flexipage
+    - flexipages/DefaultAccountESMRecordPage1.flexipage
+    - flexipages/DefaultCPQOrderRecordPage.flexipage
+    - flexipages/DefaultCPQQuoteRecordPage.flexipage
+    - flexipages/ExpressionSetConsole_UtilityBar.flexipage
+    - flexipages/Industries_CPQ_UtilityBar.flexipage
+    - flexipages/LightningSales_UtilityBar.flexipage
+    - flexipages/LightningSalesConsole_UtilityBar.flexipage
+    - flexipages/LightningService_UtilityBar.flexipage
+    - flexipages/Platform_UtilityBar.flexipage
+    - flexipages/Tasks.flexipage
+    - flexipages/Vlocity_Enterprise_Sales_App_UtilityBar.flexipage
+    - groups/ESM_SelfService_User.group
+    - homePageLayouts/Dashboard Home Page Default.homePageLayout
+    - labels/CustomLabels.labels
+    - layouts/%vlocity_namespace%__AccountAdServer__c-%vlocity_namespace%__Account Ad Server Layout
+    - layouts/%vlocity_namespace%__AccountAppliedPromotion__c-%vlocity_namespace%__Applied Promotion Layout
+    - layouts/%vlocity_namespace%__AccountAppliedPromotionItem__c-%vlocity_namespace%__Applied Promotion Affected Asset Layout
+    - layouts/%vlocity_namespace%__AccountBalance__c-%vlocity_namespace%__Account Balance %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__AccountDiscount__c-%vlocity_namespace%__Account Discount Layout
+    - layouts/%vlocity_namespace%__AccountDiscountItem__c-%vlocity_namespace%__Account Discount Item Layout
+    - layouts/%vlocity_namespace%__AccountDiscountPricing__c-%vlocity_namespace%__Account Discount Pricing Layout
+    - layouts/%vlocity_namespace%__AccountHold__c-%vlocity_namespace%__Account Hold Layout
+    - layouts/%vlocity_namespace%__AccountOffer__c-%vlocity_namespace%__Account Offer Layout
+    - layouts/%vlocity_namespace%__AccountPriceAdjustment__c-%vlocity_namespace%__Account Pricing Layout
+    - layouts/%vlocity_namespace%__AccountProductRollup__c-%vlocity_namespace%__Account Product Rollup Layout
+    - layouts/%vlocity_namespace%__ActivityContentDocument__c-%vlocity_namespace%__Activity Content Document Layout
+    - layouts/%vlocity_namespace%__ActivityTemplate__c-%vlocity_namespace%__Activity Template Layout
+    - layouts/%vlocity_namespace%__AdCreativeSizeType__c-%vlocity_namespace%__Ad Creative SizeType Layout
+    - layouts/%vlocity_namespace%__AdminTabLayout__c-%vlocity_namespace%__Admin Tab Layout Layout
+    - layouts/%vlocity_namespace%__AdServer__c-%vlocity_namespace%__Ad Server Layout
+    - layouts/%vlocity_namespace%__AdSpaceCreativeSizeType__c-%vlocity_namespace%__Ad Space Creative SizeType Layout
+    - layouts/%vlocity_namespace%__AdSpaceGroupMember__c-%vlocity_namespace%__Ad Space Group Member Layout
+    - layouts/%vlocity_namespace%__AdSpaceSpecification__c-%vlocity_namespace%__Ad Space Specification Layout
+    - layouts/%vlocity_namespace%__Application__c-%vlocity_namespace%__Application
+    - layouts/%vlocity_namespace%__Application__c-%vlocity_namespace%__Application Layout
+    - layouts/%vlocity_namespace%__ApplicationPartyRelationship__c-%vlocity_namespace%__Application Party Relationship Layout
+    - layouts/%vlocity_namespace%__ApplicationTemplate__c-%vlocity_namespace%__Application Template Layout
+    - layouts/%vlocity_namespace%__Assessment__c-%vlocity_namespace%__Assessment Template Layout
+    - layouts/%vlocity_namespace%__AssessmentAnswer__c-%vlocity_namespace%__Assessment Answer Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question Checkbox Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question Date Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question FreeText Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question Instruction Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question MultiSelect Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question Number Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question Select Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question Table MultiSelect Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question Table Select Layout
+    - layouts/%vlocity_namespace%__AssetPricingAdjustment__c-%vlocity_namespace%__Asset Pricing Adjustment Layout
+    - layouts/%vlocity_namespace%__AssignmentRule__c-%vlocity_namespace%__Manual Queue Assignment Rule %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__AssignmentRule__c-%vlocity_namespace%__Manual Queue Assignment Rule %28Vlocity XOM%29 Layout V1
+    - layouts/%vlocity_namespace%__AssignmentRule__c-%vlocity_namespace%__Manual Queue Assignment Rule %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__AssignmentRule__c-%vlocity_namespace%__Manual Queue Assignment Rule %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__AssignmentRule__c-%vlocity_namespace%__Manual Queue Assignment Rule Layout
+    - layouts/%vlocity_namespace%__AsyncProcess__c-%vlocity_namespace%__Async Process Layout
+    - layouts/%vlocity_namespace%__AsyncProcessJob__c-%vlocity_namespace%__Async Process Job Layout
+    - layouts/%vlocity_namespace%__AsyncProcessStep__c-%vlocity_namespace%__Async Process Step Layout
+    - layouts/%vlocity_namespace%__Attribute__c-%vlocity_namespace%__Attribute %28Vlocity 2.5%29
+    - layouts/%vlocity_namespace%__Attribute__c-%vlocity_namespace%__Attribute Layout
+    - layouts/%vlocity_namespace%__Attribute__c-%vlocity_namespace%__Vlocity Attribute Detail Layout
+    - layouts/%vlocity_namespace%__AttributeAssignment__c-%vlocity_namespace%__Attribute Assignment %28Vlocity 2.5%29
+    - layouts/%vlocity_namespace%__AttributeAssignment__c-%vlocity_namespace%__Attribute Assignment Layout
+    - layouts/%vlocity_namespace%__AttributeAssignmentExport__c-%vlocity_namespace%__Attribute Assignment Export Layout
+    - layouts/%vlocity_namespace%__AttributeAssignmentRule__c-%vlocity_namespace%__Attribute Assignment Rule Layout
+    - layouts/%vlocity_namespace%__AttributeBinding__c-%vlocity_namespace%__Vlocity Attribute Binding Layout
+    - layouts/%vlocity_namespace%__AttributeCategory__c-%vlocity_namespace%__AttrCategory_ProductConsole Layout
+    - layouts/%vlocity_namespace%__AttributeCategory__c-%vlocity_namespace%__Attribute Category %28Vlocity 2.5%29
+    - layouts/%vlocity_namespace%__AttributeCategory__c-%vlocity_namespace%__Attribute Category %28Vlocity 2.7%29
+    - layouts/%vlocity_namespace%__AttributeCategory__c-%vlocity_namespace%__Attribute Category Layout
+    - layouts/%vlocity_namespace%__BusinessSite__c-%vlocity_namespace%__Site Layout
+    - layouts/%vlocity_namespace%__BusinessSiteOffering__c-%vlocity_namespace%__Site Service & Product Layout
+    - layouts/%vlocity_namespace%__CachedAPIChange__c-%vlocity_namespace%__CachedAPIChange Layout
+    - layouts/%vlocity_namespace%__CachedAPIChangeEntry__c-%vlocity_namespace%__CachedAPIChangeEntry Layout
+    - layouts/%vlocity_namespace%__CachedAPIMigrate__c-%vlocity_namespace%__CachedAPIMigrate Layout
+    - layouts/%vlocity_namespace%__CachedAPIResponse__c-%vlocity_namespace%__CachedAPIResponse Layout
+    - layouts/%vlocity_namespace%__CachedAPIResponseOffers__c-%vlocity_namespace%__CachedAPIResponseOffers Layout
+    - layouts/%vlocity_namespace%__CachedDataSet__c-%vlocity_namespace%__Cached Data Set Layout
+    - layouts/%vlocity_namespace%__CachedFilterableAttribute__c-%vlocity_namespace%__Cached Filterable Attribute Layout
+    - layouts/%vlocity_namespace%__CachedKeyMapping__c-%vlocity_namespace%__CachedKeyMapping Layout
+    - layouts/%vlocity_namespace%__CachedPriceBookEntryAttributeValue__c-%vlocity_namespace%__Cached PriceBookEntry Attribute Value Layout
+    - layouts/%vlocity_namespace%__CachedProduct2Translation__c-%vlocity_namespace%__Cached Product Translation Layout
+    - layouts/%vlocity_namespace%__CachedPromotionTranslation__c-%vlocity_namespace%__Cached Promotion Translation Layout
+    - layouts/%vlocity_namespace%__CalculationMatrix__c-%vlocity_namespace%__Vlocity Grouped Pricing Matrix Layout
+    - layouts/%vlocity_namespace%__CalculationMatrix__c-%vlocity_namespace%__Vlocity Pricing Matrix Layout
+    - layouts/%vlocity_namespace%__CalculationMatrixColumn__c-%vlocity_namespace%__Vlocity Calculation Matrix Column Layout
+    - layouts/%vlocity_namespace%__CalculationMatrixDimension__c-%vlocity_namespace%__Vlocity Calculation Matrix Dimension Layout
+    - layouts/%vlocity_namespace%__CalculationMatrixRow__c-%vlocity_namespace%__Vlocity Pricing Matrix Line Item Layout
+    - layouts/%vlocity_namespace%__CalculationMatrixVersion__c-%vlocity_namespace%__Vlocity Pricing Matrix Version Layout
+    - layouts/%vlocity_namespace%__CalculationProcedure__c-%vlocity_namespace%__Pricing Procedure Declarative %28Vlocity 3.0%29
+    - layouts/%vlocity_namespace%__CalculationProcedure__c-%vlocity_namespace%__Pricing Procedure Default %28Vlocity 3.0%29
+    - layouts/%vlocity_namespace%__CalculationProcedureStep__c-%vlocity_namespace%__Pricing Procedure Step Layout
+    - layouts/%vlocity_namespace%__CalculationProcedureVariable__c-%vlocity_namespace%__Vlocity Calculation Procedure Variable Layout
+    - layouts/%vlocity_namespace%__CalculationProcedureVersion__c-%vlocity_namespace%__Pricing Procedure Version Layout
+    - layouts/%vlocity_namespace%__CallbackURI__c-%vlocity_namespace%__CallbackURI Layout
+    - layouts/%vlocity_namespace%__CampaignContentDocument__c-%vlocity_namespace%__Campaign Content Document Layout
+    - layouts/%vlocity_namespace%__CampaignMemberActionLog__c-%vlocity_namespace%__Campaign Member Action Log Layout
+    - layouts/%vlocity_namespace%__Cart__c-%vlocity_namespace%__Cart %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__CartItem__c-%vlocity_namespace%__Cart Item %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__Catalog__c-%vlocity_namespace%__Catalog Layout %28Vlocity%29
+    - layouts/%vlocity_namespace%__CatalogProductRelationship__c-%vlocity_namespace%__Catalog Product Relationship Layout %28Vlocity%29
+    - layouts/%vlocity_namespace%__CatalogRelationship__c-%vlocity_namespace%__Catalog Relationship Layout %28Vlocity%29
+    - layouts/%vlocity_namespace%__ChargeMeasurement__c-%vlocity_namespace%__Charge Measurement Layout
+    - layouts/%vlocity_namespace%__ChargeMeasurement__c-%vlocity_namespace%__Vlocity EPC Charge Measurement Layout
+    - layouts/%vlocity_namespace%__CompiledAttributeOverride__c-%vlocity_namespace%__Compiled Attribute Override Layout
+    - layouts/%vlocity_namespace%__ConfigurationSnapshot__c-%vlocity_namespace%__Configuration Snapshot Layout
+    - layouts/%vlocity_namespace%__ConsoleActionLog__c-%vlocity_namespace%__Console Action Log Layout
+    - layouts/%vlocity_namespace%__ContextAction__c-%vlocity_namespace%__Context Action Layout
+    - layouts/%vlocity_namespace%__ContextDimension__c-%vlocity_namespace%__Context Dimension Layout
+    - layouts/%vlocity_namespace%__ContextMapping__c-%vlocity_namespace%__Vlocity Context Mapping Layout
+    - layouts/%vlocity_namespace%__ContextMappingArgument__c-%vlocity_namespace%__Vlocity Context Mapping Argument Layout
+    - layouts/%vlocity_namespace%__ContextRule__c-%vlocity_namespace%__Context Rule Layout
+    - layouts/%vlocity_namespace%__ContextRuleset__c-%vlocity_namespace%__Vlocity Context Ruleset Layout
+    - layouts/%vlocity_namespace%__ContextScope__c-%vlocity_namespace%__Context Scope Layout
+    - layouts/%vlocity_namespace%__ContractDocumentCollection__c-%vlocity_namespace%__Contract Document Element Layout
+    - layouts/%vlocity_namespace%__ContractEnvelope__c-%vlocity_namespace%__Contract Envelope Layout
+    - layouts/%vlocity_namespace%__ContractGroup__c-%vlocity_namespace%__Contract Group Layout
+    - layouts/%vlocity_namespace%__ContractLineItem__c-%vlocity_namespace%__Contract Line Item %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__ContractLineItem__c-%vlocity_namespace%__Contract Line Item Layout
+    - layouts/%vlocity_namespace%__ContractRecipient__c-%vlocity_namespace%__Contract Recipient Layout
+    - layouts/%vlocity_namespace%__ContractSection__c-%vlocity_namespace%__Contract Document Section Layout
+    - layouts/%vlocity_namespace%__ContractTerm__c-%vlocity_namespace%__Contract Term Layout
+    - layouts/%vlocity_namespace%__ContractType__c-%vlocity_namespace%__Contract Type Layout
+    - layouts/%vlocity_namespace%__ContractTypeSetting__c-%vlocity_namespace%__Contract Type Setup Layout
+    - layouts/%vlocity_namespace%__ContractTypeTerm__c-%vlocity_namespace%__Contract Type Term Layout
+    - layouts/%vlocity_namespace%__ContractVersion__c-%vlocity_namespace%__Contract Document Sales Rep Layout
+    - layouts/%vlocity_namespace%__ContractVersion__c-%vlocity_namespace%__Contract Document Super User Layout
+    - layouts/%vlocity_namespace%__ContractVersionDiscount__c-%vlocity_namespace%__Contract Document Discount Layout
+    - layouts/%vlocity_namespace%__ContractVersionDiscountItem__c-%vlocity_namespace%__Contract Document Discount Item Layout
+    - layouts/%vlocity_namespace%__ContractVersionDiscountPricing__c-%vlocity_namespace%__Contract Document Discount Pricing Layout
+    - layouts/%vlocity_namespace%__CpqMemberType__mdt-%vlocity_namespace%__CPQ Group Member Type Layout
+    - layouts/%vlocity_namespace%__CustomerInteraction__c-%vlocity_namespace%__Customer Interaction Layout
+    - layouts/%vlocity_namespace%__CustomerInteractionTopic__c-%vlocity_namespace%__Customer Interaction Topic Layout
+    - layouts/%vlocity_namespace%__Datastore__c-%vlocity_namespace%__Vlocity Data Store Layout
+    - layouts/%vlocity_namespace%__DecompositionRelationship__c-%vlocity_namespace%__Decomposition Relationship %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__DecompositionRelationship__c-%vlocity_namespace%__Decomposition Relationship %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__DecompositionRelationship__c-%vlocity_namespace%__Decomposition Relationship %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__DecompositionRelationship__c-%vlocity_namespace%__Decomposition Relationship %28Vlocity XOM%29 Layout V4
+    - layouts/%vlocity_namespace%__DecompositionRelationship__c-%vlocity_namespace%__Decomposition Relationship %28Vlocity XOM%29 Layout V5
+    - layouts/%vlocity_namespace%__DecompositionRelationship__c-%vlocity_namespace%__Decomposition Relationship %28Vlocity XOM%29 Layout V6
+    - layouts/%vlocity_namespace%__Document__c-%vlocity_namespace%__Document Layout
+    - layouts/%vlocity_namespace%__DocumentClause__c-%vlocity_namespace%__Document Clause Layout
+    - layouts/%vlocity_namespace%__DocumentSection__c-%vlocity_namespace%__Document Section Layout
+    - layouts/%vlocity_namespace%__DocumentTemplate__c-%vlocity_namespace%__Document Template Layout
+    - layouts/%vlocity_namespace%__DocumentTemplateElement__c-%vlocity_namespace%__Document Template Element Layout
+    - layouts/%vlocity_namespace%__DocumentTemplateSection__c-%vlocity_namespace%__Document Template Section Layout
+    - layouts/%vlocity_namespace%__DocumentTemplateSectionCondition__c-%vlocity_namespace%__Document Template Section Condition Layout
+    - layouts/%vlocity_namespace%__DocumentToken__c-%vlocity_namespace%__Document Token Layout
+    - layouts/%vlocity_namespace%__DRBatchQueue__c-%vlocity_namespace%__DRBatch Queue Layout
+    - layouts/%vlocity_namespace%__DRBulkData__c-%vlocity_namespace%__DataRaptor Bulk Data Layout
+    - layouts/%vlocity_namespace%__DRBundle__c-%vlocity_namespace%__DataRaptor Bundle Layout
+    - layouts/%vlocity_namespace%__DRMapItem__c-%vlocity_namespace%__DataRaptor Map Item Layout
+    - layouts/%vlocity_namespace%__DRMatchingKey__mdt-%vlocity_namespace%__Vlocity Matching Key Layout
+    - layouts/%vlocity_namespace%__Dunning__c-%vlocity_namespace%__Collections Activity Layout
+    - layouts/%vlocity_namespace%__Element__c-%vlocity_namespace%__Element Layout
+    - layouts/%vlocity_namespace%__EntityFilter__c-%vlocity_namespace%__Entity Filter %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__EntityFilter__c-%vlocity_namespace%__Entity Filter Layout
+    - layouts/%vlocity_namespace%__EntityFilterCondition__c-%vlocity_namespace%__Entity Filter Condition Layout
+    - layouts/%vlocity_namespace%__EntityFilterConditionArgument__c-%vlocity_namespace%__Vlocity Entity Filter Condition Argument Layout
+    - layouts/%vlocity_namespace%__EntityFilterMember__c-%vlocity_namespace%__Entity Filter Member %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__EntityFilterMember__c-%vlocity_namespace%__Entity Filter Member Layout
+    - layouts/%vlocity_namespace%__Error_Code__c-%vlocity_namespace%__Error Code Layout
+    - layouts/%vlocity_namespace%__Error_Code_Namespace__c-%vlocity_namespace%__Error Code Namespace Layout
+    - layouts/%vlocity_namespace%__ErrorCode__c-%vlocity_namespace%__Error Code Layout
+    - layouts/%vlocity_namespace%__ErrorCodeNamespace__c-%vlocity_namespace%__Error Code Namespace %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__ErrorCodeNamespace__c-%vlocity_namespace%__Error Code Namespace Layout
+    - layouts/%vlocity_namespace%__EventDuringInteraction__c-%vlocity_namespace%__Event During Interaction Layout
+    - layouts/%vlocity_namespace%__EventMessage__c-%vlocity_namespace%__Vlocity Event Message Layout
+    - layouts/%vlocity_namespace%__ExpandedInteractionLog__c-%vlocity_namespace%__Expanded Interaction Log %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__ExpandedInteractionLog__c-%vlocity_namespace%__Expanded Interaction Log Layout
+    - layouts/%vlocity_namespace%__FulfilmentDiagram__c-%vlocity_namespace%__Fulfilment Diagram %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__FulfilmentDiagram__c-%vlocity_namespace%__Fulfilment Diagram %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__FulfilmentDiagram__c-%vlocity_namespace%__Fulfilment Diagram Layout
+    - layouts/%vlocity_namespace%__FulfilmentDiagramOPD__c-%vlocity_namespace%__Fulfilment Diagram OPD Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequest__c-%vlocity_namespace%__Fulfilment Request %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequest__c-%vlocity_namespace%__Fulfilment Request Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequestDecompRelationship__c-%vlocity_namespace%__Fulfilment Request Decomp Relationship %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequestDecompRelationship__c-%vlocity_namespace%__Fulfilment Request Decomposition Rel Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequestLine__c-%vlocity_namespace%__Fulfilment Request Line %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequestLine__c-%vlocity_namespace%__Fulfilment Request Line Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequestLineDecompRelationship__c-%vlocity_namespace%__Fulfilment Request Line Decomp Relationship %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequestLineDecompRelationship__c-%vlocity_namespace%__FulfilmentRequestLineDecompRelationship Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequestLineRelationship__c-%vlocity_namespace%__FulfilmentRequestLineRelationship Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequestLineSourceRootOrderItem__c-%vlocity_namespace%__FRL Source Bundle Relationship Layout
+    - layouts/%vlocity_namespace%__FunctionDefinition__mdt-%vlocity_namespace%__Function Definition Layout
+    - layouts/%vlocity_namespace%__GenericDocument__c-%vlocity_namespace%__Generic DocuSign Document Layout
+    - layouts/%vlocity_namespace%__GenericEnvelope__c-%vlocity_namespace%__Generic DocuSign Envelope Layout
+    - layouts/%vlocity_namespace%__GenericRecipient__c-%vlocity_namespace%__Generic DocuSign Recipient Layout
+    - layouts/%vlocity_namespace%__GraphClone__c-%vlocity_namespace%__Graph Clone Layout
+    - layouts/%vlocity_namespace%__Household__c-%vlocity_namespace%__Household
+    - layouts/%vlocity_namespace%__Household__c-%vlocity_namespace%__Household %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__Household__c-%vlocity_namespace%__Household Core
+    - layouts/%vlocity_namespace%__InboundRESTInterface__c-%vlocity_namespace%__Inbound REST Interface %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__IntegrationRetryPolicy__c-%vlocity_namespace%__Integration Retry Policy Layout
+    - layouts/%vlocity_namespace%__IntegrationRetryPolicy__c-%vlocity_namespace%__Monotonous Forever Retry Policy %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__IntegrationRetryPolicy__c-%vlocity_namespace%__Monotonous Forever Retry Policy Layout
+    - layouts/%vlocity_namespace%__IntegrationRetryPolicy__c-%vlocity_namespace%__Monotonous Retry Policy %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__IntegrationRetryPolicy__c-%vlocity_namespace%__Monotonous Retry Policy Layout
+    - layouts/%vlocity_namespace%__IntegrationRetryPolicy__c-%vlocity_namespace%__No Retry Policy %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__IntegrationRetryPolicy__c-%vlocity_namespace%__No Retry Policy Layout
+    - layouts/%vlocity_namespace%__IntegrationRetryPolicy__c-%vlocity_namespace%__Staggered Retry Policy %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__IntegrationRetryPolicy__c-%vlocity_namespace%__Staggered Retry Policy Layout
+    - layouts/%vlocity_namespace%__Interface_BillingInfo__c-%vlocity_namespace%__Interface_BillingInfo Layout
+    - layouts/%vlocity_namespace%__Interface_DRGeneric__c-%vlocity_namespace%__Interface_DRGeneric Layout
+    - layouts/%vlocity_namespace%__Interface_ProductAttribute__c-%vlocity_namespace%__Product Attribute Interface Layout
+    - layouts/%vlocity_namespace%__InterfaceImplementation__c-%vlocity_namespace%__Interface Implementation Layout
+    - layouts/%vlocity_namespace%__InterfaceImplementationDetail__c-%vlocity_namespace%__Interface Implementation Detail Layout
+    - layouts/%vlocity_namespace%__InventoryItem__c-%vlocity_namespace%__Inventory Item %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__InventoryItem__c-%vlocity_namespace%__Inventory Item %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__InventoryItemDecompositionRelationship__c-%vlocity_namespace%__Inventory Item Decomposition Relationship %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__InventoryItemDecompositionRelationship__c-%vlocity_namespace%__Inventory Item DecompositionRelationship Layout
+    - layouts/%vlocity_namespace%__ItemImplementation__c-%vlocity_namespace%__Item Implementation %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__ItemImplementation__c-%vlocity_namespace%__Item Implementation %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__ItemImplementation__c-%vlocity_namespace%__Item Implementation %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__ItemImplementation__c-%vlocity_namespace%__Item Implementation %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__ItemImplementation__c-%vlocity_namespace%__Item Implementation Layout
+    - layouts/%vlocity_namespace%__Jurisdiction__c-%vlocity_namespace%__Jurisdiction Layout
+    - layouts/%vlocity_namespace%__LargeDataStore__c-%vlocity_namespace%__Large Data Store Layout
+    - layouts/%vlocity_namespace%__LineOfBusiness__c-%vlocity_namespace%__Line of Business Layout
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity Hybrid%29 Layout
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity Thor%29 Layout V2
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity Thor%29 Layout V3
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity Thor%29 Layout V4
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity Thor%29 Layout V5
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity XOM%29 Layout V5
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity XOM%29 Layout V6
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity XOM%29 Layout V7
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity XOM%29 Layout V8
+    - layouts/%vlocity_namespace%__ManualQueueMember__c-%vlocity_namespace%__Manual Queue Member %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__ManualQueueMember__c-%vlocity_namespace%__Manual Queue Member Layout
+    - layouts/%vlocity_namespace%__MediaContentTitle__c-%vlocity_namespace%__Media Content Title Layout
+    - layouts/%vlocity_namespace%__MediaProperty__c-%vlocity_namespace%__Media Property Layout
+    - layouts/%vlocity_namespace%__ObjectAppliedResult__c-%vlocity_namespace%__Object Applied Result Layout
+    - layouts/%vlocity_namespace%__ObjectClass__c-%vlocity_namespace%__Object Class Layout
+    - layouts/%vlocity_namespace%__ObjectClass__c-%vlocity_namespace%__Vlocity_EPC_Object_Class_Layout
+    - layouts/%vlocity_namespace%__ObjectElement__c-%vlocity_namespace%__Vlocity Object Section Element Layout
+    - layouts/%vlocity_namespace%__ObjectFacet__c-%vlocity_namespace%__Class Facet Layout
+    - layouts/%vlocity_namespace%__ObjectFacet__c-%vlocity_namespace%__Object Facet Layout
+    - layouts/%vlocity_namespace%__ObjectFieldAttribute__c-%vlocity_namespace%__Object Field Attribute Layout
+    - layouts/%vlocity_namespace%__ObjectLayout__c-%vlocity_namespace%__Object Layout Layout
+    - layouts/%vlocity_namespace%__ObjectRuleAssignment__c-%vlocity_namespace%__Vlocity Object Rule Assignment Layout
+    - layouts/%vlocity_namespace%__ObjectSection__c-%vlocity_namespace%__Vlocity Object Section Layout
+    - layouts/%vlocity_namespace%__OfferingProcedure__c-%vlocity_namespace%__Offering Procedure %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__OfferingProcedure__c-%vlocity_namespace%__Offering Procedure Layout
+    - layouts/%vlocity_namespace%__OfferMigrationComponentMapping__c-%vlocity_namespace%__Offer Migration Component Mapping Layout
+    - layouts/%vlocity_namespace%__OfferMigrationPlan__c-%vlocity_namespace%__Offer Migration Plan Layout
+    - layouts/%vlocity_namespace%__OfferMigrationPlan__c-%vlocity_namespace%__Vlocity Offer Migration Plan Layout
+    - layouts/%vlocity_namespace%__OfferPricingComponent__c-%vlocity_namespace%__Offer Pricing Component Layout
+    - layouts/%vlocity_namespace%__OmniScript__c-%vlocity_namespace%__OmniScript Layout
+    - layouts/%vlocity_namespace%__OmniScriptDefinition__c-%vlocity_namespace%__OmniScript Definition Layout
+    - layouts/%vlocity_namespace%__OmniScriptInstance__c-%vlocity_namespace%__Vlocity OmniScript Instance Layout
+    - layouts/%vlocity_namespace%__OmniUserSession__c-%vlocity_namespace%__Omni User Session Layout
+    - layouts/%vlocity_namespace%__OperatingHours__c-%vlocity_namespace%__Operating Hours Layout
+    - layouts/%vlocity_namespace%__OperatingHoursEntry__c-%vlocity_namespace%__Exception Operating Hours Entry %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__OperatingHoursEntry__c-%vlocity_namespace%__Operating Hours Entry Exception Layout
+    - layouts/%vlocity_namespace%__OperatingHoursEntry__c-%vlocity_namespace%__Operating Hours Entry Standard Layout
+    - layouts/%vlocity_namespace%__OperatingHoursEntry__c-%vlocity_namespace%__Standard Operating Hours Entry %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__OpportunityAppliedPromotion__c-%vlocity_namespace%__Opportunity Applied Promotion Layout
+    - layouts/%vlocity_namespace%__OpportunityAppliedPromotionItem__c-%vlocity_namespace%__Opportunity Applied Promotion Item Layout
+    - layouts/%vlocity_namespace%__OpportunityDiscount__c-%vlocity_namespace%__Opportunity Discount Layout
+    - layouts/%vlocity_namespace%__OpportunityDiscountItem__c-%vlocity_namespace%__Opportunity Discount Item Layout
+    - layouts/%vlocity_namespace%__OpportunityDiscountPricing__c-%vlocity_namespace%__Opportunity Discount Pricing Layout
+    - layouts/%vlocity_namespace%__OpportunityGroup__c-%vlocity_namespace%__Opportunity Group Layout
+    - layouts/%vlocity_namespace%__OpportunityLineItemRelationship__c-%vlocity_namespace%__Opportunity Line Item Relationship Layout
+    - layouts/%vlocity_namespace%__OpportunityMember__c-%vlocity_namespace%__Opportunity Member Layout
+    - layouts/%vlocity_namespace%__OpportunityPriceAdjustment__c-%vlocity_namespace%__Opportunity Pricing Layout
+    - layouts/%vlocity_namespace%__OrchestrationDependency__c-%vlocity_namespace%__Orchestration Dependency %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationDependency__c-%vlocity_namespace%__Orchestration Dependency %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationDependencyDefinition__c-%vlocity_namespace%__Orchestration Dependency Definition %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItem__c-%vlocity_namespace%__Orchestration Item %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItem__c-%vlocity_namespace%__Orchestration Item %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItem__c-%vlocity_namespace%__Orchestration Item %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItem__c-%vlocity_namespace%__Orchestration Item %28Vlocity XOM%29 Layout V4
+    - layouts/%vlocity_namespace%__OrchestrationItem__c-%vlocity_namespace%__Orchestration Item %28Vlocity XOM%29 Layout V5
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity Thor%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity Thor%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity XOM%29 Layout V4
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity XOM%29 Layout V5
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity XOM%29 Layout V6
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity XOM%29 Layout V7
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity XOM%29 Layout V8
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity Thor%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity Thor%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V10
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V11
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V12
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V13
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V4
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V5
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V6
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V7
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V8
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V9
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity Thor%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity Thor%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity XOM%29 Layout V4
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity XOM%29 Layout V5
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity XOM%29 Layout V6
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity XOM%29 Layout V7
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity XOM%29 Layout V8
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity XOM%29 Layout V9
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity Thor%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity Thor%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity XOM%29 Layout V4
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity XOM%29 Layout V5
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity XOM%29 Layout V6
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity XOM%29 Layout V7
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity XOM%29 Layout V8
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity Thor%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity Thor%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity XOM%29 Layout V4
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity XOM%29 Layout V5
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity XOM%29 Layout V6
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity XOM%29 Layout V7
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity XOM%29 Layout V8
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity XOM%29 Layout V9
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Sub-plan %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Sub-plan %28Vlocity Thor%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Sub-plan %28Vlocity Thor%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemRelationship__c-%vlocity_namespace%__Orchestration Item Relationship Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemSource__c-%vlocity_namespace%__Orchestration Item Source Layout
+    - layouts/%vlocity_namespace%__OrchestrationPlan__c-%vlocity_namespace%__Orchestration Plan %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationPlan__c-%vlocity_namespace%__Orchestration Plan %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationPlan__c-%vlocity_namespace%__Orchestration Plan %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationPlanDefinition__c-%vlocity_namespace%__Orchestration Plan Definition %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationQueue__c-%vlocity_namespace%__Orchestration Queue %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationQueue__c-%vlocity_namespace%__Orchestration Queue %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationQueueAssignmentRule__c-%vlocity_namespace%__Orchestration Queue Assignment Rule %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationQueueAssignmentRule__c-%vlocity_namespace%__Orchestration Queue Assignment Rule %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationQueueAssignmentRule__c-%vlocity_namespace%__Orchestration Queue Assignment Rule Layout
+    - layouts/%vlocity_namespace%__OrchestrationScenario__c-%vlocity_namespace%__Orchestration Scenario %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationScenario__c-%vlocity_namespace%__Orchestration Scenario %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationScenario__c-%vlocity_namespace%__Orchestration Scenario Layout
+    - layouts/%vlocity_namespace%__OrchestrationSchedulerImplementation__c-%vlocity_namespace%__Orchestration Scheduler Implementation %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrderAppliedPromotion__c-%vlocity_namespace%__Order Applied Promotion Layout
+    - layouts/%vlocity_namespace%__OrderAppliedPromotionItem__c-%vlocity_namespace%__Order Applied Promotion Affected Item Layout
+    - layouts/%vlocity_namespace%__OrderDiscount__c-%vlocity_namespace%__Order Discount Layout
+    - layouts/%vlocity_namespace%__OrderDiscountItem__c-%vlocity_namespace%__Order Discount Item Layout
+    - layouts/%vlocity_namespace%__OrderDiscountPricing__c-%vlocity_namespace%__Order Discount Pricing Layout
+    - layouts/%vlocity_namespace%__OrderGroup__c-%vlocity_namespace%__Order Group Layout
+    - layouts/%vlocity_namespace%__OrderItemAdPlacement__c-%vlocity_namespace%__Order Ad Placement Layout
+    - layouts/%vlocity_namespace%__OrderItemPriceAdjustment__c-%vlocity_namespace%__Order Item Pricing Adjustment Layout
+    - layouts/%vlocity_namespace%__OrderItemRelationship__c-%vlocity_namespace%__Order Product Relationship Layout
+    - layouts/%vlocity_namespace%__OrderMember__c-%vlocity_namespace%__Order Member Layout
+    - layouts/%vlocity_namespace%__OrderPayment__c-%vlocity_namespace%__Order Payment Layout
+    - layouts/%vlocity_namespace%__OrderPriceAdjustment__c-%vlocity_namespace%__Order Pricing Adjustment Layout
+    - layouts/%vlocity_namespace%__OrderProductRollup__c-%vlocity_namespace%__Order Product Rollup Layout
+    - layouts/%vlocity_namespace%__OrderRelationship__c-%vlocity_namespace%__Order Relationship Layout
+    - layouts/%vlocity_namespace%__OutboundConfiguration__c-%vlocity_namespace%__Outbound Configuration Layout
+    - layouts/%vlocity_namespace%__OverrideDefinition__c-%vlocity_namespace%__Product Override Layout
+    - layouts/%vlocity_namespace%__Party__c-%vlocity_namespace%__Client Default
+    - layouts/%vlocity_namespace%__Party_Association__c-%vlocity_namespace%__Party Association Layout
+    - layouts/%vlocity_namespace%__PartyMergeRequest__c-%vlocity_namespace%__Party Merge Request Layout
+    - layouts/%vlocity_namespace%__PartyRelationship__c-%vlocity_namespace%__Party Relationship Layout
+    - layouts/%vlocity_namespace%__PartyRelationshipType__c-%vlocity_namespace%__Relationship Type Layout
+    - layouts/%vlocity_namespace%__PaymentAdjustment__c-%vlocity_namespace%__Console Payment Adjustment %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__PaymentAdjustment__c-%vlocity_namespace%__Payment Adjustment %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__PaymentMethod__c-%vlocity_namespace%__Payment Method %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__PaymentPlan__c-%vlocity_namespace%__Payment Plan Layout
+    - layouts/%vlocity_namespace%__PDFTronEncryptionKey__c-%vlocity_namespace%__PDFTron Encryption Key Layout
+    - layouts/%vlocity_namespace%__Picklist__c-%vlocity_namespace%__Picklist Layout
+    - layouts/%vlocity_namespace%__Picklist__c-%vlocity_namespace%__VlocityPCPicklistLayout
+    - layouts/%vlocity_namespace%__PicklistSelectionEntry__c-%vlocity_namespace%__Picklist Selection Entry Layout
+    - layouts/%vlocity_namespace%__PicklistValue__c-%vlocity_namespace%__Vlocity Picklist Value Layout
+    - layouts/%vlocity_namespace%__Premises__c-%vlocity_namespace%__Premises %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__PremisesPartyRelationship__c-%vlocity_namespace%__PremisesPartyRelationship Layout
+    - layouts/%vlocity_namespace%__PriceList__c-%vlocity_namespace%__Price List Layout
+    - layouts/%vlocity_namespace%__PriceList__c-%vlocity_namespace%__Vlocity EPC Price List Layout
+    - layouts/%vlocity_namespace%__PriceListEntry__c-%vlocity_namespace%__Price List Entry Layout
+    - layouts/%vlocity_namespace%__PricingComponent__c-%vlocity_namespace%__Pricing Component Layout
+    - layouts/%vlocity_namespace%__PricingComponentRelationship__c-%vlocity_namespace%__Pricing Component Relationship Layout
+    - layouts/%vlocity_namespace%__PricingElement__c-%vlocity_namespace%__Pricing Element Layout
+    - layouts/%vlocity_namespace%__PricingPlan__c-%vlocity_namespace%__Pricing Plan Layout
+    - layouts/%vlocity_namespace%__PricingPlan__c-%vlocity_namespace%__Vlocity EPC Pricing Plan Layout
+    - layouts/%vlocity_namespace%__PricingPlanStep__c-%vlocity_namespace%__Pricing Plan Step Layout
+    - layouts/%vlocity_namespace%__PricingPlanStep__c-%vlocity_namespace%__Vlocity EPC Pricing Plan Step Layout
+    - layouts/%vlocity_namespace%__PricingVariable__c-%vlocity_namespace%__Pricing Variable Layout
+    - layouts/%vlocity_namespace%__PricingVariable__c-%vlocity_namespace%__Vlocity EPC Pricing Variable Layout
+    - layouts/%vlocity_namespace%__PricingVariableBinding__c-%vlocity_namespace%__Pricing Variable Binding Layout
+    - layouts/%vlocity_namespace%__PricingVariableBinding__c-%vlocity_namespace%__Vlocity EPC Pricing Variable Binding Layout
+    - layouts/%vlocity_namespace%__ProductAttribXN__c-%vlocity_namespace%__ProductAttribXN Layout
+    - layouts/%vlocity_namespace%__ProductAvailability__c-%vlocity_namespace%__Product Not Available %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__ProductAvailability__c-%vlocity_namespace%__Product Not Available Layout
+    - layouts/%vlocity_namespace%__ProductChildItem__c-%vlocity_namespace%__Product Child Item %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__ProductConfigurationProcedure__c-%vlocity_namespace%__Product Configuration Procedure Layout
+    - layouts/%vlocity_namespace%__ProductEligibility__c-%vlocity_namespace%__Product Eligibility %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__ProductRelationship__c-%vlocity_namespace%__Product Relationship %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__ProductRelationship__c-%vlocity_namespace%__Product Relationship Layout
+    - layouts/%vlocity_namespace%__ProductRelationshipType__c-%vlocity_namespace%__Product Relationship Type Layout
+    - layouts/%vlocity_namespace%__ProductTemplate__c-%vlocity_namespace%__Product Template Layout
+    - layouts/%vlocity_namespace%__ProfileCategoryAssignment__c-%vlocity_namespace%__Product Template Assignment %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__ProfilingSegment__c-%vlocity_namespace%__Product Attribute Definition %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__ProfilingSegment__c-%vlocity_namespace%__Product Attribute Definition Layout
+    - layouts/%vlocity_namespace%__ProfilingSegment__c-%vlocity_namespace%__Profiling Segment Layout
+    - layouts/%vlocity_namespace%__ProfilingSegmentCategory__c-%vlocity_namespace%__Product Template Definition %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__ProfilingSegmentCategory__c-%vlocity_namespace%__Product Template Definition Layout
+    - layouts/%vlocity_namespace%__ProfilingSegmentCategory__c-%vlocity_namespace%__Profiling Segment Category Layout
+    - layouts/%vlocity_namespace%__Project__c-%vlocity_namespace%__Project Layout
+    - layouts/%vlocity_namespace%__Project__c-%vlocity_namespace%__Vlocity Project Layout
+    - layouts/%vlocity_namespace%__ProjectItem__c-%vlocity_namespace%__Project Item Layout
+    - layouts/%vlocity_namespace%__Promotion__c-%vlocity_namespace%__Promotion Layout
+    - layouts/%vlocity_namespace%__Promotion__c-%vlocity_namespace%__Vlocity EPC Discount Layout
+    - layouts/%vlocity_namespace%__Promotion__c-%vlocity_namespace%__Vlocity EPC Promotion Layout
+    - layouts/%vlocity_namespace%__PromotionApplicableProduct__c-%vlocity_namespace%__Promotion Applicable Product Layout
+    - layouts/%vlocity_namespace%__PromotionIncludedProduct__c-%vlocity_namespace%__Promotion Included Product Layout
+    - layouts/%vlocity_namespace%__PromotionItem__c-%vlocity_namespace%__Promotion Item Layout
+    - layouts/%vlocity_namespace%__PromotionPricingAlteration__c-%vlocity_namespace%__Promotion Pricing Alteration Layout
+    - layouts/%vlocity_namespace%__QuoteAppliedPromotion__c-%vlocity_namespace%__Quote Applied Promotion Layout
+    - layouts/%vlocity_namespace%__QuoteAppliedPromotionItem__c-%vlocity_namespace%__Quote Applied Promotion Affected Item Layout
+    - layouts/%vlocity_namespace%__QuoteDiscount__c-%vlocity_namespace%__Quote Discount Layout
+    - layouts/%vlocity_namespace%__QuoteDiscountItem__c-%vlocity_namespace%__Quote Discount Item Layout
+    - layouts/%vlocity_namespace%__QuoteDiscountPricing__c-%vlocity_namespace%__Quote Discount Pricing Layout
+    - layouts/%vlocity_namespace%__QuoteGroup__c-%vlocity_namespace%__Quote Group Layout
+    - layouts/%vlocity_namespace%__QuoteLineItemAdPlacement__c-%vlocity_namespace%__Media Plan Placement Layout
+    - layouts/%vlocity_namespace%__QuoteLineItemPricingAdjustment__c-%vlocity_namespace%__Quote Line Item Pricing Adjustment Layout
+    - layouts/%vlocity_namespace%__QuoteLineItemRelationship__c-%vlocity_namespace%__Quote Line Item Relationship Layout
+    - layouts/%vlocity_namespace%__QuoteMember__c-%vlocity_namespace%__Quote Member Layout
+    - layouts/%vlocity_namespace%__QuotePricingAdjustment__c-%vlocity_namespace%__Quote Pricing Adjustment Layout
+    - layouts/%vlocity_namespace%__QuoteProductRollup__c-%vlocity_namespace%__Quote Product Rollup Layout
+    - layouts/%vlocity_namespace%__RelationshipGraph__c-%vlocity_namespace%__Relationship Graph Layout
+    - layouts/%vlocity_namespace%__RelationshipGraphNodeType__c-%vlocity_namespace%__Relationship Graph Node Type Layout
+    - layouts/%vlocity_namespace%__RelationshipGraphTraversal__c-%vlocity_namespace%__Relationship Graph Traversal Layout
+    - layouts/%vlocity_namespace%__Rule__c-%vlocity_namespace%__Rule %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__Rule__c-%vlocity_namespace%__Rule Layout
+    - layouts/%vlocity_namespace%__RuleAction__c-%vlocity_namespace%__Rule Action Layout
+    - layouts/%vlocity_namespace%__RuleAssignment__c-%vlocity_namespace%__Vlocity Rule Assignment Layout
+    - layouts/%vlocity_namespace%__RuleFilter__c-%vlocity_namespace%__Rule Filter Layout
+    - layouts/%vlocity_namespace%__RuleProperty__c-%vlocity_namespace%__Rule Property Layout
+    - layouts/%vlocity_namespace%__RuleVariable__c-%vlocity_namespace%__Rule Variable Layout
+    - layouts/%vlocity_namespace%__ScreeningRule__c-%vlocity_namespace%__Screening Rule Layout
+    - layouts/%vlocity_namespace%__ScreeningRuleGroup__c-%vlocity_namespace%__Screening Rule Group Layout
+    - layouts/%vlocity_namespace%__SecurityDeposit__c-%vlocity_namespace%__Security Deposit Layout
+    - layouts/%vlocity_namespace%__ServicePoint__c-%vlocity_namespace%__Service Point %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__SpecTemplateAttributeMapping__c-%vlocity_namespace%__Spec Template Attribute Mapping Layout
+    - layouts/%vlocity_namespace%__SpecTemplateMapping__c-%vlocity_namespace%__Spec Template Mapping Layout
+    - layouts/%vlocity_namespace%__Stage__c-%vlocity_namespace%__Stage Layout
+    - layouts/%vlocity_namespace%__Statement__c-%vlocity_namespace%__Statement %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__StatementLineItem__c-%vlocity_namespace%__Statement Line Item %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__StateTransition__c-%vlocity_namespace%__State Transition Layout
+    - layouts/%vlocity_namespace%__String__c-%vlocity_namespace%__Vlocity String Layout
+    - layouts/%vlocity_namespace%__StringTranslation__c-%vlocity_namespace%__Vlocity String Translation Layout
+    - layouts/%vlocity_namespace%__Subscription__c-%vlocity_namespace%__Subscription Layout
+    - layouts/%vlocity_namespace%__SyncDeltaObject__c-%vlocity_namespace%__Sync Delta Object Layout
+    - layouts/%vlocity_namespace%__SyncDeltaSnapshot__c-%vlocity_namespace%__Sync Delta Snapshot Layout
+    - layouts/%vlocity_namespace%__System__c-%vlocity_namespace%__System %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__System__c-%vlocity_namespace%__System Layout
+    - layouts/%vlocity_namespace%__SystemInterface__c-%vlocity_namespace%__System Interface %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__SystemInterface__c-%vlocity_namespace%__System Interface Layout
+    - layouts/%vlocity_namespace%__TestResult__c-%vlocity_namespace%__Test Result Layout
+    - layouts/%vlocity_namespace%__ThorOrchestrationQueue__c-%vlocity_namespace%__Thor Orchestration Queue Layout
+    - layouts/%vlocity_namespace%__TimePlan__c-%vlocity_namespace%__Time Plan Layout
+    - layouts/%vlocity_namespace%__TimePlan__c-%vlocity_namespace%__Vlocity EPC Time Plan Layout
+    - layouts/%vlocity_namespace%__TimePolicy__c-%vlocity_namespace%__Time Policy Layout
+    - layouts/%vlocity_namespace%__TimePolicy__c-%vlocity_namespace%__Vlocity EPC Time Policy Layout
+    - layouts/%vlocity_namespace%__TriggerListener__mdt-%vlocity_namespace%__Trigger Listener Layout
+    - layouts/%vlocity_namespace%__UIFacet__c-%vlocity_namespace%__Vlocity UI Facet Layout
+    - layouts/%vlocity_namespace%__UISection__c-%vlocity_namespace%__Vlocity UI Section Layout
+    - layouts/%vlocity_namespace%__UserAdServer__c-%vlocity_namespace%__User Ad Server Layout
+    - layouts/%vlocity_namespace%__UserCalendar__c-%vlocity_namespace%__User Calendar Layout
+    - layouts/%vlocity_namespace%__UserNotification__c-%vlocity_namespace%__Notification Layout
+    - layouts/%vlocity_namespace%__VersionAwareObjectRelationship__mdt-%vlocity_namespace%__VersionAwareObjectRelationship Layout
+    - layouts/%vlocity_namespace%__VlocityAction__c-%vlocity_namespace%__Vlocity Action Layout
+    - layouts/%vlocity_namespace%__VlocityAPIMetadata__c-%vlocity_namespace%__Vlocity API Metadata Layout
+    - layouts/%vlocity_namespace%__VlocityAttachment__c-%vlocity_namespace%__Vlocity Attachment Layout
+    - layouts/%vlocity_namespace%__VlocityCard__c-%vlocity_namespace%__Vlocity Card Layout
+    - layouts/%vlocity_namespace%__VlocityContractServiceLog__c-%vlocity_namespace%__Vlocity Contract Service Log Layout
+    - layouts/%vlocity_namespace%__VlocityDataPack__c-%vlocity_namespace%__Vlocity Data Pack Layout
+    - layouts/%vlocity_namespace%__VlocityDataPackConfiguration__mdt-%vlocity_namespace%__Vlocity Data Pack Configuration Layout
+    - layouts/%vlocity_namespace%__VlocityDocuSignBranding__c-%vlocity_namespace%__Vlocity DocuSign Branding Layout
+    - layouts/%vlocity_namespace%__VlocityDocuSignTemplate__c-%vlocity_namespace%__Vlocity Docusign Template Layout
+    - layouts/%vlocity_namespace%__VlocityErrorLogEntry__c-%vlocity_namespace%__Vlocity Error Log Entry Layout
+    - layouts/%vlocity_namespace%__VlocityFunction__c-%vlocity_namespace%__Vlocity Function Layout
+    - layouts/%vlocity_namespace%__VlocityFunctionArgument__c-%vlocity_namespace%__Vlocity Function Argument Layout
+    - layouts/%vlocity_namespace%__VlocityIntegrationSetting__mdt-%vlocity_namespace%__Vlocity Integration Setting Layout
+    - layouts/%vlocity_namespace%__VlocityPartyRecordTypeSetting__mdt-%vlocity_namespace%__Vlocity Party Record Type Setting Layout
+    - layouts/%vlocity_namespace%__VlocityScheduledJob__c-%vlocity_namespace%__Vlocity Scheduled Job Layout
+    - layouts/%vlocity_namespace%__VlocitySearchWidgetActionsSetup__c-%vlocity_namespace%__Vlocity Interaction Launcher Action Layout
+    - layouts/%vlocity_namespace%__VlocitySearchWidgetSetup__c-%vlocity_namespace%__Vlocity Interaction Launcher Layout - Class Based
+    - layouts/%vlocity_namespace%__VlocitySearchWidgetSetup__c-%vlocity_namespace%__Vlocity Interaction Launcher Layout - Object Based
+    - layouts/%vlocity_namespace%__VlocityState__c-%vlocity_namespace%__Vlocity State Layout
+    - layouts/%vlocity_namespace%__VlocityStateModel__c-%vlocity_namespace%__Vlocity State Model Layout
+    - layouts/%vlocity_namespace%__VlocityStateModelVersion__c-%vlocity_namespace%__Vlocity State Model Version Layout
+    - layouts/%vlocity_namespace%__VlocityStateTransition__c-%vlocity_namespace%__Vlocity State Transition Layout
+    - layouts/%vlocity_namespace%__VlocityStateTransitionRule__c-%vlocity_namespace%__Vlocity State Transition Rule Layout
+    - layouts/%vlocity_namespace%__VlocitySystemLog__c-%vlocity_namespace%__Vlocity System Log Layout
+    - layouts/%vlocity_namespace%__VlocityTrackingComponent__c-%vlocity_namespace%__Vlocity Tracking Component Layout
+    - layouts/%vlocity_namespace%__VlocityTrackingEntry__c-%vlocity_namespace%__Vlocity Tracking Entry Layout
+    - layouts/%vlocity_namespace%__VlocityTrackingGroup__c-%vlocity_namespace%__Vlocity Tracking Group Layout
+    - layouts/%vlocity_namespace%__VlocityUILayout__c-%vlocity_namespace%__Vlocity UI Layout Layout
+    - layouts/%vlocity_namespace%__VlocityUITemplate__c-%vlocity_namespace%__Vlocity UI Template Layout
+    - layouts/%vlocity_namespace%__VlocityWebTrackingConfiguration__c-%vlocity_namespace%__Vlocity Web Tracking Configuration Layout
+    - layouts/%vlocity_namespace%__VlocityWebTrackingEventType__c-%vlocity_namespace%__Vlocity Web Tracking Event Type Layout
+    - layouts/%vlocity_namespace%__VPLAbstractionLayerSetup__mdt-%vlocity_namespace%__VPLAbstractionLayerSetup Layout
+    - layouts/%vlocity_namespace%__VPLExpress__mdt-%vlocity_namespace%__VPLExpress Layout
+    - layouts/%vlocity_namespace%__VqMachine__c-%vlocity_namespace%__Vlocity Acuity Machine Layout
+    - layouts/%vlocity_namespace%__VqMachineResource__c-%vlocity_namespace%__Acuity Machine Resource Layout
+    - layouts/%vlocity_namespace%__VqResource__c-%vlocity_namespace%__Vlocity Acuity Resource Layout
+    - layouts/%vlocity_namespace%__XOMEventListener__mdt-%vlocity_namespace%__XOM Event Listener Layout
+    - layouts/Account-%vlocity_namespace%__Account %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Base Billing %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Base Business%28Vlocity Telecommunication Services%29 layout
+    - layouts/Account-%vlocity_namespace%__Base Consumer %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Base Service %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Billing %28Enterprise Sales Management%29 Layout
+    - layouts/Account-%vlocity_namespace%__Billing %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Billing Aggregator %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Business%28Vlocity Telecommunication Services%29 layout
+    - layouts/Account-%vlocity_namespace%__Console Account %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Console Service Account %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Consumer %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Energy-Console layout
+    - layouts/Account-%vlocity_namespace%__Other Account %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Service %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Service Aggregator %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-Account Layout
+    - layouts/AccountBrand-Account Brand Layout
+    - layouts/AccountContactRelation-Account Contact Relationship Layout
+    - layouts/AccountRelationship-Account RelationshipLayout
+    - layouts/ActionPlan-Action Plan Layout
+    - layouts/ActionPlanTemplate-Action Plan Template Layout
+    - layouts/ActionPlanTemplateItem-Action Plan Template Item Layout
+    - layouts/ActionPlanTemplateItemValue-Action Plan Template Item Value Layout
+    - layouts/ActionPlanTemplateVersion-Action Plan Template Version Layout
+    - layouts/ActionPlanTmplItmAssessmentInd-Action Plan Template Item Assessment Indicator Layout
+    - layouts/ActiveScratchOrg-Active Scratch Org Layout
+    - layouts/AssessmentIndicatorDefinition-Assessment Indicator Definition Layout
+    - layouts/AssessmentTask-Assessment Task Layout
+    - layouts/AssessmentTaskContentDocument-Assessment Task Content Document Layout
+    - layouts/AssessmentTaskOrder-Assessment Task Order Layout
+    - layouts/Asset-%vlocity_namespace%__Asset %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Asset-%vlocity_namespace%__Console Service Asset %28Vlocity Telecommunication Service%29 Layout
+    - layouts/Asset-Asset Layout
+    - layouts/AssetRelationship-Asset Relationship Layout
+    - layouts/AuthorizationForm-Authorization Form Layout
+    - layouts/AuthorizationFormConsent-Authorization Form Consent Layout
+    - layouts/AuthorizationFormDataUse-Authorization Form Data Use Layout
+    - layouts/AuthorizationFormText-Authorization Form Text Layout
+    - layouts/BusinessBrand-Business Brand Layout
+    - layouts/BuyerAccount-Buyer Account Layout
+    - layouts/CalcProcStepRelationship-Expression Set Step Relationship Layout
+    - layouts/CalculationMatrix-Decision Matrix Layout
+    - layouts/CalculationMatrixColumn-Decision Matrix Column Layout
+    - layouts/CalculationMatrixRow-Decision Matrix Row Layout
+    - layouts/CalculationMatrixVersion-Decision Matrix Version Layout
+    - layouts/CalculationProcedure-Calculation Procedure Layout
+    - layouts/CalculationProcedureStep-Calculation Procedure Step Layout
+    - layouts/CalculationProcedureVariable-Calculation Procedure Variable Layout
+    - layouts/CalculationProcedureVersion-Calculation Procedure Version Layout
+    - layouts/Campaign-%vlocity_namespace%__Campaign Layout %28Vlocity%29
+    - layouts/Campaign-%vlocity_namespace%__Mobile Campaign %28Vlocity 2.5%29
+    - layouts/Campaign-%vlocity_namespace%__MobilePhoneCampaign
+    - layouts/Campaign-Campaign Layout
+    - layouts/CampaignMember-Campaign Member Page Layout
+    - layouts/Case-%vlocity_namespace%__Case %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Case-%vlocity_namespace%__Console Billing Dispute %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Case-%vlocity_namespace%__Mobile Case %28Vlocity 2.5%29
+    - layouts/Case-%vlocity_namespace%__MobilePhoneCase
+    - layouts/Case-Case Layout
+    - layouts/CaseClose-Close Case Layout
+    - layouts/CaseMilestone-Case Milestone Layout
+    - layouts/CommunityMemberLayout-Community Member Layout
+    - layouts/Contact-%vlocity_namespace%__Console Contact Layout
+    - layouts/Contact-%vlocity_namespace%__Contact %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Contact-%vlocity_namespace%__Mobile Contact %28Vlocity 2.5%29
+    - layouts/Contact-%vlocity_namespace%__MobilePhoneContact
+    - layouts/Contact-Contact Layout
+    - layouts/ContactPointAddress-Contact Point Address Layout
+    - layouts/ContactPointEmail-Contact Point Email Layout
+    - layouts/ContactPointPhone-Contact Point Phone Layout
+    - layouts/ContactPointTypeConsent-Contact Point Type Consent Layout
+    - layouts/ContentVersion-Content Version Layout
+    - layouts/Contract-%vlocity_namespace%__Contract %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Contract-%vlocity_namespace%__Contract Layout
+    - layouts/Contract-%vlocity_namespace%__Lightning Contract Layout
+    - layouts/Contract-%vlocity_namespace%__Read Only Contract %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Contract-%vlocity_namespace%__Sample Contract With Action Bar %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Contract-Contract Layout
+    - layouts/ContractLineItem-Contract Line Item Layout
+    - layouts/CssDetail-View Case Layout
+    - layouts/CssDetail-View Case Page Layout
+    - layouts/CssEdit-Log a Case Layout
+    - layouts/CssEdit-Log a Case Page Layout
+    - layouts/Customer-Customer Layout
+    - layouts/DataUseLegalBasis-Data Use Legal Basis Layout
+    - layouts/DataUsePurpose-Data Use Purpose Layout
+    - layouts/DelegatedAccount-External Managed Account Layout
+    - layouts/DuplicateRecordSet-Duplicate Record Set Layout
+    - layouts/EmailMessage-Email Message Layout
+    - layouts/Entitlement-Entitlement Layout
+    - layouts/EntityMilestone-Object Milestone Layout
+    - layouts/Event-%vlocity_namespace%__Mobile Event %28Vlocity 2.5%29
+    - layouts/Event-%vlocity_namespace%__MobilePhoneEvent
+    - layouts/Event-Event Layout
+    - layouts/ExpressionSet-Expression Set Layout
+    - layouts/ExpressionSetVersion-Expression Set Version Layout
+    - layouts/FeedItem-Feed Item Layout
+    - layouts/Global-Global Layout
+    - layouts/Idea-Idea Layout
+    - layouts/Individual-Individual Layout
+    - layouts/Lead-%vlocity_namespace%__Lead %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Lead-Lead Layout
+    - layouts/Macro-Macro Layout
+    - layouts/myobj__c-myobj Layout
+    - layouts/NamespaceRegistry-Namespace Registry Layout
+    - layouts/Opportunity-%vlocity_namespace%__Console Opportunity %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Opportunity-%vlocity_namespace%__Energy-Console layout
+    - layouts/Opportunity-%vlocity_namespace%__Mobile Opportunity %28Vlocity 2.5%29
+    - layouts/Opportunity-%vlocity_namespace%__MobilePhoneOpportunity
+    - layouts/Opportunity-%vlocity_namespace%__Opportunity %28Enterprise Sales Management%29 Layout
+    - layouts/Opportunity-%vlocity_namespace%__Opportunity %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Opportunity-Opportunity Layout
+    - layouts/OpportunityLineItem-%vlocity_namespace%__Opportunity Product %28Vlocity Telecommunication Services%29 Layout
+    - layouts/OpportunityLineItem-Opportunity Product Layout
+    - layouts/Order-%vlocity_namespace%__Console Order %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Order-%vlocity_namespace%__Master Order %28Enterprise Sales Management%29 Layout
+    - layouts/Order-%vlocity_namespace%__Mobile Order %28Vlocity 2.5%29
+    - layouts/Order-%vlocity_namespace%__MobilePhoneOrder
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity Thor%29 Layout
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity Thor%29 Layout V2
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity Thor%29 Layout V3
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity Thor%29 Layout V4
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity Thor%29 Layout V5
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V10
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V11
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V12
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V2
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V3
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V4
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V5
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V6
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V7
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V8
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V9
+    - layouts/Order-%vlocity_namespace%__Sub Order %28Enterprise Sales Management%29 Layout
+    - layouts/Order-Order %28ESM Self Service%29 Layout
+    - layouts/Order-Order Layout
+    - layouts/OrderItem-%vlocity_namespace%__Order Product %28Vlocity Telecommunication Services%29 Layout
+    - layouts/OrderItem-Order Product Layout
+    - layouts/Pricebook2-Price Book Layout
+    - layouts/PricebookEntry-Price Book Entry
+    - layouts/ProcessException-Process Exception Layout
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity EPC%29 Layout
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity Thor%29 Layout
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity Thor%29 Layout V2
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity XOM%29 Layout
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity XOM%29 Layout V2
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity XOM%29 Layout V3
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity XOM%29 Layout V4
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity XOM%29 Layout V5
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity XOM%29 Layout V6
+    - layouts/Product2-%vlocity_namespace%__Product Console Layout
+    - layouts/Product2-%vlocity_namespace%__Product Template %28Vlocity 3.5%29
+    - layouts/Product2-Product Layout
+    - layouts/ProfileSkill-Skill Layout
+    - layouts/ProfileSkillEndorsement-Endorsement Layout
+    - layouts/ProfileSkillUser-Skill User Layout
+    - layouts/QuickText-Quick Text Layout
+    - layouts/Quote-%vlocity_namespace%__Console Quote %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Quote-%vlocity_namespace%__Enterprise Quote %28Enterprise Sales Management%29 Layout
+    - layouts/Quote-%vlocity_namespace%__Quote %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Quote-Quote Layout
+    - layouts/QuoteLineItem-%vlocity_namespace%__Quote Line Item %28Vlocity Telecommunication Services%29 Layout
+    - layouts/QuoteLineItem-Quote Line Item Layout
+    - layouts/Recommendation-%vlocity_namespace%__Recommendation Layout
+    - layouts/Scorecard-Scorecard Layout
+    - layouts/ScorecardAssociation-Scorecard Association Layout
+    - layouts/ScorecardMetric-Scorecard Metric Layout
+    - layouts/ScratchOrgInfo-Scratch Org Info Layout
+    - layouts/Seller-Seller Layout
+    - layouts/ServiceAppointmentGroup-Service Appointment Group Layout
+    - layouts/ServiceContract-Service Contract Layout
+    - layouts/ServiceTerritoryRelationship-Service Territory Relationship Layout
+    - layouts/SocialPersona-Social Persona Layout
+    - layouts/SocialPost-Social Post Layout
+    - layouts/Solution-Solution Layout
+    - layouts/Task-%vlocity_namespace%__Mobile Task %28Vlocity 2.5%29
+    - layouts/Task-%vlocity_namespace%__MobilePhoneTask
+    - layouts/Task-Task Layout
+    - layouts/User-%vlocity_namespace%__User %28Vlocity%29 Layout
+    - layouts/User-User Layout
+    - layouts/UserProvAccount-User Provisioning Account Layout
+    - layouts/UserProvisioningLog-User Provisioning Log Layout
+    - layouts/UserProvisioningRequest-User Provisioning Request Layout
+    - layouts/vbtapp__TrialforceSetupScript__mdt-vbtapp__Trialforce Setup Script Layout
+    - layouts/WorkAccess-Access Layout
+    - layouts/WorkBadge-Badge Received Layout
+    - layouts/WorkBadgeDefinition-Badge Layout
+    - layouts/WorkOrder-Work Order Layout
+    - layouts/WorkOrderLineItem-Work Order Line Item Layout
+    - layouts/WorkPlan-Work Plan Layout
+    - layouts/WorkPlanTemplate-Work Plan Template Layout
+    - layouts/WorkPlanTemplateEntry-Work Plan Template Entry Layout
+    - layouts/WorkProcedure-Work Procedure Layout
+    - layouts/WorkProcedureStep-Work Procedure Step Layout
+    - layouts/WorkStep-Work Step Layout
+    - layouts/WorkStepTemplate-Work Step Template Layout
+    - layouts/WorkThanks-Thanks Layout
+    - layouts/WorkTypeExtension-Work Type Extension Layout
+    - lwc/b2bExpressCLMGenerateProposalDocumentLWCMultiLanguage
+    - lwc/b2bExpressCreateQuoteMultiLanguage
+    - lwc/b2bSelfServiceChangeState
+    - lwc/cfB2bSampleAppCard
+    - lwc/cfB2bSampleAppCard_13_VlocityExpress
+    - lwc/cfCpqAdvancedSearchLineItem
+    - lwc/cfCpqAllButtonsDesktop
+    - lwc/cfCpqAllButtonsMobile
+    - lwc/cfCpqAmendRequestedDesktop
+    - lwc/cfCpqAmendRequestedMobile
+    - lwc/cfCpqAppliedDiscounts
+    - lwc/cfCpqApplyDiscountInfoModal
+    - lwc/cfCpqAssetSearch
+    - lwc/cfCpqAssetViewerAdvancedSearch
+    - lwc/cfCpqAssetViewerChildLineItem
+    - lwc/cfCpqAssetViewerContainer
+    - lwc/cfCpqAssetViewerGroupLineItems
+    - lwc/cfCpqAssetViewerLineItem
+    - lwc/cfCpqAssetViewerSelectAllAssets
+    - lwc/cfCpqAsyncJobStatus
+    - lwc/cfCpqAsyncJobStatusChild
+    - lwc/cfCPQAttributeCategoryList
+    - lwc/cfCPQAttributeConfigFields
+    - lwc/cfCPQAttributeConfigFields_filters
+    - lwc/cfCPQAttributeConfigFields_filters_child
+    - lwc/cfCPQAttributeConfigFields_MACDBulkChange
+    - lwc/cfCPQAttributeConfigFields_MACDBulkChange_Child
+    - lwc/cfCpqBrowsePhaseContainer
+    - lwc/cfCpqCartAppliedDiscount
+    - lwc/cfCpqCartAppliedDiscountContainer
+    - lwc/cfCpqCartAppliedPromotion
+    - lwc/cfCpqCartAppliedPromotionContainer
+    - lwc/cfCpqCartConfiguratorContainer
+    - lwc/cfCpqCartDetailViewContainer
+    - lwc/cfCpqCartDiscount
+    - lwc/cfCpqCartEmptyState
+    - lwc/cfCpqCartErrorDetails
+    - lwc/cfCpqCartErrorPanel
+    - lwc/cfCpqCartFlexTable
+    - lwc/cfCpqCartFlexTableAction
+    - lwc/cfCpqCartFlexTableContainer
+    - lwc/cfCpqCartInlineChildPromoForAssetViewer
+    - lwc/cfCpqCartInlineError
+    - lwc/cfCpqCartInlinePromo
+    - lwc/cfCpqCartInlinePromoForAssetViewer
+    - lwc/cfCpqCartItemPrices
+    - lwc/cfCpqCartItems
+    - lwc/cfCpqCartItemsAction
+    - lwc/cfCpqCartPromotion
+    - lwc/cfCpqCartSummaryContainer
+    - lwc/cfCpqCatalogSearch
+    - lwc/cfCpqCatalogSelectionMenu
+    - lwc/cfCpqChangeOfPlanGroups
+    - lwc/cfCpqConfigureCart
+    - lwc/cfCpqConfigureCartAttributes
+    - lwc/cfCpqConfigureCartChildProducts
+    - lwc/cfCpqConfigureCartItem
+    - lwc/cfCpqConfigureCartLineItems
+    - lwc/cfCpqConfigureErrorPanel
+    - lwc/cfCpqCreateCustomDiscountAmountDetails
+    - lwc/cfCpqCreateCustomDiscountApplyToggle
+    - lwc/cfCpqCreateCustomDiscountBasicInfo
+    - lwc/cfCpqCreateCustomDiscountDurationDetails
+    - lwc/cfCpqCreateCustomDiscountModal
+    - lwc/cfCpqDeleteModal
+    - lwc/cfCpqDetailViewFlexTableContainer
+    - lwc/cfCpqDiscount
+    - lwc/cfCpqDiscountDetailView
+    - lwc/cfCpqDiscountList
+    - lwc/cfCpqDiscountProducts
+    - lwc/cfCpqDiscountStatus
+    - lwc/cfCPQDynamicForm
+    - lwc/cfCpqFilterPills
+    - lwc/cfCpqGlobalHeader
+    - lwc/cfCpqGlobalHeaderContainer
+    - lwc/cfCpqGlobalHeaderOpportunity
+    - lwc/cfCpqGlobalHeaderOrder
+    - lwc/cfCpqGlobalHeaderQuote
+    - lwc/cfCpqInProgressSubmittedDesktop
+    - lwc/cfCpqInProgressSubmittedMobile
+    - lwc/cfCpqMacdBulkInlineMessage
+    - lwc/cfCpqManualPriceAdjustments
+    - lwc/cfCpqManualPriceAdjustmentsActions
+    - lwc/cfCpqManualPriceAdjustmentsActionsChild
+    - lwc/cfCpqManualPriceAdjustmentsWaterfall
+    - lwc/cfCpqMultiSiteAppliedFilters
+    - lwc/cfCpqMultiSiteAppliedFiltersChild
+    - lwc/cfCpqMultiSiteApplyToGroup
+    - lwc/cfCpqMultiSiteCombobox
+    - lwc/cfCpqMultiSiteCreateGroup
+    - lwc/cfCpqMultisiteGridTable
+    - lwc/cfCpqMultiSiteGroupCardCartConfigurator
+    - lwc/cfCpqMultisiteGroupListContainer
+    - lwc/cfCpqMultiSiteGroupsContainer
+    - lwc/cfCpqMultisiteGroupSelectorContainer
+    - lwc/cfCpqMultiSiteGroupsList
+    - lwc/cfCpqMultiSiteGroupsMember
+    - lwc/cfCpqMultiSiteGroupTemplate
+    - lwc/cfCpqMultiSiteHeader
+    - lwc/cfCpqMultisiteLocationsContainer
+    - lwc/cfCpqMultiSiteMembersTypeList
+    - lwc/cfCpqMultiSiteObjectFilter
+    - lwc/cfCpqMultisiteObjectFilterVDF
+    - lwc/cfCpqMultisitePremisesContainer
+    - lwc/cfCpqMultisiteServiceAccountContainer
+    - lwc/cfCpqMultisiteServicePointContainer
+    - lwc/cfCpqMultisiteSubscriberAccountContainer
+    - lwc/cfCpqMultisiteTableColumnFilter
+    - lwc/cfCpqOfferSelection
+    - lwc/cfCpqOpportunityHeaderButtons
+    - lwc/cfCpqOpportunityStatusDesktop
+    - lwc/cfCpqOrderStatusDiscardedDesktop
+    - lwc/cfCpqOrderStatusDiscardedMobile
+    - lwc/cfCpqPills
+    - lwc/cfCpqPillsContainer
+    - lwc/cfCpqPriceAdjustmentList
+    - lwc/cfCpqPriceList
+    - lwc/cfCpqProductAndCategory
+    - lwc/cfCpqProductConfigureTotalBar
+    - lwc/cfCpqProductDetailsPopup
+    - lwc/cfCpqProductFilterChild
+    - lwc/cfCpqProductSearch
+    - lwc/cfCpqProductsPromotionsContainer
+    - lwc/cfCpqProductsPromotionsContainerCart
+    - lwc/cfCpqProductTileList
+    - lwc/cfCpqProductView
+    - lwc/cfCpqPromotionDetailView
+    - lwc/cfCpqPromotionDetailViewForAssetViewer
+    - lwc/cfCpqPromotions
+    - lwc/cfCpqPromotionTileListView
+    - lwc/cfCpqQuoteButtonsMobile
+    - lwc/cfCpqReadyToSubmitCancelledDesktop
+    - lwc/cfCpqReadyToSubmitCancelledDesktopChild
+    - lwc/cfCpqReadyToSubmitCancelledMobile
+    - lwc/cfCpqRecordMessageList
+    - lwc/cfCpqSearchChildProducts
+    - lwc/cfCpqSpinner
+    - lwc/cfCpqSubmitButtonHeader
+    - lwc/cfCpqSupplementalActionBadge
+    - lwc/cfCpqTimePlan
+    - lwc/cfCpqViewSelector
+    - lwc/cfESM_MassDiscount_Wrapper
+    - lwc/cfESM_QuoteItemDataTable
+    - lwc/cfESM_QuoteItemDataTableCell
+    - lwc/cfESM_QuoteItemDataTableRow
+    - lwc/cfESM_QuoteItemDataTableSummary
+    - lwc/cfESM_QuoteItemDataTableSummaryRow
+    - lwc/cfESM_SelfService_ActionStatus
+    - lwc/cfESM_SelfService_AssetViewContainer
+    - lwc/cfESM_SelfService_AssetViewContainer_18_salesforce
+    - lwc/cfESM_SelfService_AssetViewerAttributeTooltip
+    - lwc/cfESM_SelfService_AssetViewerColumn
+    - lwc/cfESM_SelfService_AssetViewerGroupItems
+    - lwc/cfESM_SelfService_AssetViewerItemAttribute
+    - lwc/cfESM_SelfService_AssetViewerLineItem
+    - lwc/cfESM_SelfService_AsyncStatus
+    - lwc/cfESM_SelfService_AsyncStatus_3_salesforce
+    - lwc/cfESM_SelfService_AsyncStatusChild
+    - lwc/cfESM_SelfService_AsyncStatusChild_4_salesforce
+    - lwc/cfESM_SelfService_Authentication
+    - lwc/cfESM_SelfService_BulkInlineMessage
+    - lwc/cfESM_SelfService_CartInlineError
+    - lwc/cfESM_SelfService_ChangeToOrder
+    - lwc/cfESM_SelfService_ChangeToOrder_10_salesforce
+    - lwc/cfESM_SelfService_ChangeToOrder_9_salesforce
+    - lwc/cfESM_SelfService_ConfigureAttributesFilters
+    - lwc/cfESM_SelfService_ConfigureAttributesFilters_Child
+    - lwc/cfESM_SelfService_ConfigureBulkAttributes
+    - lwc/cfESM_SelfService_ConfigureBulkAttributes_Child
+    - lwc/cfESM_SelfService_ConfigureCartAttributes
+    - lwc/cfESM_SelfService_ConfigureCartChildItems
+    - lwc/cfESM_SelfService_ConfigureCartChildProducts
+    - lwc/cfESM_SelfService_ConfigureCartContainer
+    - lwc/cfESM_SelfService_ConfigureCartGroups
+    - lwc/cfESM_SelfService_ConfigureCartItem
+    - lwc/cfESM_SelfService_CreateOrder
+    - lwc/cfESM_SelfService_EachOrderItem
+    - lwc/cfESM_SelfService_ForgotPassword
+    - lwc/cfESM_SelfService_Login
+    - lwc/cfESM_SelfService_Login_1_salesforce
+    - lwc/cfESM_SelfService_OrderConfirm_Temp
+    - lwc/cfESM_SelfService_OrderConfirm_Temp_1_salesforce
+    - lwc/cfESM_SelfService_OrderConfirm_Temp_2_salesforce
+    - lwc/cfESM_SelfService_OrderSummary
+    - lwc/cfESM_SelfService_OrderSummaryCard
+    - lwc/cfESM_SelfService_ResetPassword
+    - lwc/cfESM_SelfService_SingleLineItemEdit
+    - lwc/cfESM_SelfService_Spinner
+    - lwc/cfESM_SelfService_ViewOrder
+    - lwc/cfESM_SelfService_ViewOrderItem
+    - lwc/cfESM_SelfService_ViewOrderItemContainer
+    - lwc/cfESM_SelfService_ViewOrderSummary
+    - lwc/cfESMProductDetails
+    - lwc/cfESMProductRelationshipModal
+    - lwc/cfESMProductRelationshipModalSummary
+    - lwc/cfESMSpecificRuleForProduct
+    - lwc/cfMultisiteApplyMemberValidationFlyout
+    - lwc/cfMultisiteCheckoutGroupListFlyout
+    - lwc/cfMultiSiteGroupValidationTable
+    - lwc/cfMultisiteValidatePriceFlyout
+    - lwc/cPQAssetViewerOrderFlowMultiLanguage
+    - lwc/cPQAssetViewerQuoteFlowMultiLanguage
+    - lwc/cPQBulkChangeMultiLanguage
+    - lwc/cPQBulkQuoteToOrderMultiLanguage
+    - lwc/cPQBulkReplaceMultiLanguage
+    - lwc/cPQCartConfiguratorMultiLanguage
+    - lwc/cPQChangeToOrderMultiLanguage
+    - lwc/cPQChangeToQuoteMultiLanguage
+    - lwc/cPQCreateOrderMultiLanguage
+    - lwc/cPQCreateQuoteMultiLanguage
+    - lwc/cPQMultisiteConfiguratorMultiLanguage
+    - lwc/cPQSingleMoveMultiLanguage
+    - lwc/cPQSplitAndSubmitOrderEnglish
+    - lwc/cPQSubmitOrderMultiLanguage
+    - lwc/eSMQuoteEnrichForAllEnglish
+    - lwc/eSMQuoteEnrichForInstallationEnglish
+    - lwc/eSMQuoteEnrichForNumberAssignmentEnglish
+    - lwc/eSMQuoteEnrichForPaymentEnglish
+    - lwc/lWCCPQAmendOrderMultiLanguage
+    - lwc/lWCCPQApproveDiscountItemsMultiLanguage
+    - lwc/lWCCPQCancelOrderEnglish
+    - lwc/multiSiteQuoteOrderFlowMultiLanguage
+    - managedTopics/MyTestCommunity.managedTopics
+    - managedTopics/SelfServicePostSale.managedTopics
+    - matchingRules/Account.matchingRule
+    - matchingRules/Contact.matchingRule
+    - matchingRules/Individual.matchingRule
+    - matchingRules/Lead.matchingRule
+    - milestoneTypes/Close Case.milestoneType
+    - milestoneTypes/Escalate Case.milestoneType
+    - milestoneTypes/First Response to Customer.milestoneType
+    - moderation/MyTestCommunity.Banned.keywords
+    - moderation/MyTestCommunity.Block_banned_keywords.rule
+    - moderation/MyTestCommunity.Flag_banned.rule
+    - moderation/MyTestCommunity.Freeze_for_frequent_posting.rule
+    - moderation/MyTestCommunity.Replace_banned.rule
+    - moderation/MyTestCommunity.Review_the_first_post.rule
+    - networkBranding/cbMyTestCommunity.networkBranding
+    - networkBranding/cbSelfServicePostSale.networkBranding
+    - networks/MyTestCommunity.network
+    - networks/SelfServicePostSale.network
+    - notificationtypes/BulkNotifications.notiftype
+    - notificationtypes/CMEbatchJob.notiftype
+    - objects/Account/Account.object
+    - objects/AccountBrand/AccountBrand.object
+    - objects/AccountContactRelation/AccountContactRelation.object
+    - objects/AccountContactRole/AccountContactRole.object
+    - objects/ActiveScratchOrg/ActiveScratchOrg.object
+    - objects/Activity/Activity.object
+    - objects/Asset/Asset.object
+    - objects/AssetRelationship/AssetRelationship.object
+    - objects/AssistantProgress/AssistantProgress.object
+    - objects/AssociatedLocation/AssociatedLocation.object
+    - objects/AuthorizationForm/AuthorizationForm.object
+    - objects/AuthorizationFormConsent/AuthorizationFormConsent.object
+    - objects/AuthorizationFormDataUse/AuthorizationFormDataUse.object
+    - objects/AuthorizationFormText/AuthorizationFormText.object
+    - objects/BusinessBrand/BusinessBrand.object
+    - objects/Campaign/Campaign.object
+    - objects/CampaignMember/CampaignMember.object
+    - objects/Case/Case.object
+    - objects/CaseContactRole/CaseContactRole.object
+    - objects/CaseMilestone/CaseMilestone.object
+    - objects/CaseRelatedIssue/CaseRelatedIssue.object
+    - objects/ChangeRequest/ChangeRequest.object
+    - objects/ChangeRequestRelatedIssue/ChangeRequestRelatedIssue.object
+    - objects/ChangeRequestRelatedItem/ChangeRequestRelatedItem.object
+    - objects/ChannelProgram/ChannelProgram.object
+    - objects/ChannelProgramLevel/ChannelProgramLevel.object
+    - objects/ChannelProgramMember/ChannelProgramMember.object
+    - objects/ChatterActivity/ChatterActivity.object
+    - objects/CollaborationGroup/CollaborationGroup.object
+    - objects/CollaborationGroupMember/CollaborationGroupMember.object
+    - objects/CommSubscription/CommSubscription.object
+    - objects/CommSubscriptionChannelType/CommSubscriptionChannelType.object
+    - objects/CommSubscriptionConsent/CommSubscriptionConsent.object
+    - objects/CommSubscriptionTiming/CommSubscriptionTiming.object
+    - objects/Contact/Contact.object
+    - objects/ContactPointAddress/ContactPointAddress.object
+    - objects/ContactPointConsent/ContactPointConsent.object
+    - objects/ContactPointEmail/ContactPointEmail.object
+    - objects/ContactPointPhone/ContactPointPhone.object
+    - objects/ContactPointTypeConsent/ContactPointTypeConsent.object
+    - objects/ContactRequest/ContactRequest.object
+    - objects/ContentVersion/ContentVersion.object
+    - objects/Contract/Contract.object
+    - objects/ContractContactRole/ContractContactRole.object
+    - objects/ContractLineItem/ContractLineItem.object
+    - objects/Customer/Customer.object
+    - objects/DataUseLegalBasis/DataUseLegalBasis.object
+    - objects/DataUsePurpose/DataUsePurpose.object
+    - objects/DelegatedAccount/DelegatedAccount.object
+    - objects/DocumentGenerationProcess/DocumentGenerationProcess.object
+    - objects/DuplicateRecordItem/DuplicateRecordItem.object
+    - objects/DuplicateRecordSet/DuplicateRecordSet.object
+    - objects/EmailMessage/EmailMessage.object
+    - objects/EngagementChannelType/EngagementChannelType.object
+    - objects/Entitlement/Entitlement.object
+    - objects/EntitlementContact/EntitlementContact.object
+    - objects/EntityMilestone/EntityMilestone.object
+    - objects/Event/Event.object
+    - objects/ExchangeUserMapping/ExchangeUserMapping.object
+    - objects/ExpressionFilter/ExpressionFilter.object
+    - objects/ExpressionFilterCriteria/ExpressionFilterCriteria.object
+    - objects/ExternalEventMapping/ExternalEventMapping.object
+    - objects/FeedItem/FeedItem.object
+    - objects/FlowOrchestrationInstance/FlowOrchestrationInstance.object
+    - objects/FlowOrchestrationWorkItem/FlowOrchestrationWorkItem.object
+    - objects/ForecastingAdjustment/ForecastingAdjustment.object
+    - objects/ForecastingCategoryMapping/ForecastingCategoryMapping.object
+    - objects/ForecastingOwnerAdjustment/ForecastingOwnerAdjustment.object
+    - objects/ForecastingQuota/ForecastingQuota.object
+    - objects/ForecastingTypeToCategory/ForecastingTypeToCategory.object
+    - objects/Idea/Idea.object
+    - objects/Image/Image.object
+    - objects/Incident/Incident.object
+    - objects/IncidentRelatedItem/IncidentRelatedItem.object
+    - objects/Individual/Individual.object
+    - objects/Lead/Lead.object
+    - objects/LearningAssignment/LearningAssignment.object
+    - objects/LearningAssignmentProgress/LearningAssignmentProgress.object
+    - objects/LearningLinkProgress/LearningLinkProgress.object
+    - objects/Location/Location.object
+    - objects/LocationTrustMeasure/LocationTrustMeasure.object
+    - objects/Macro/Macro.object
+    - objects/MacroAction/MacroAction.object
+    - objects/MacroInstruction/MacroInstruction.object
+    - objects/MacroUsage/MacroUsage.object
+    - objects/myobj__c/myobj__c.object
+    - objects/NamespaceRegistry/NamespaceRegistry.object
+    - objects/NetworkMember/NetworkMember.object
+    - objects/NetworkMemberChunk/NetworkMemberChunk.object
+    - objects/Opportunity/Opportunity.object
+    - objects/OpportunityCompetitor/OpportunityCompetitor.object
+    - objects/OpportunityContactRole/OpportunityContactRole.object
+    - objects/OpportunityLineItem/OpportunityLineItem.object
+    - objects/OpportunityLineItemSchedule/OpportunityLineItemSchedule.object
+    - objects/Order/Order.object
+    - objects/OrderItem/OrderItem.object
+    - objects/OrgMetricScanResult/OrgMetricScanResult.object
+    - objects/OrgMetricScanSummary/OrgMetricScanSummary.object
+    - objects/PartnerFundAllocation/PartnerFundAllocation.object
+    - objects/PartnerFundClaim/PartnerFundClaim.object
+    - objects/PartnerFundRequest/PartnerFundRequest.object
+    - objects/PartnerMarketingBudget/PartnerMarketingBudget.object
+    - objects/PartnerRole/PartnerRole.object
+    - objects/PartyConsent/PartyConsent.object
+    - objects/Pricebook2/Pricebook2.object
+    - objects/PricebookEntry/PricebookEntry.object
+    - objects/Problem/Problem.object
+    - objects/ProblemIncident/ProblemIncident.object
+    - objects/ProblemRelatedItem/ProblemRelatedItem.object
+    - objects/ProcessException/ProcessException.object
+    - objects/Product2/Product2.object
+    - objects/ProfileSkill/ProfileSkill.object
+    - objects/ProfileSkillEndorsement/ProfileSkillEndorsement.object
+    - objects/ProfileSkillUser/ProfileSkillUser.object
+    - objects/PromptAction/PromptAction.object
+    - objects/PromptError/PromptError.object
+    - objects/QuickText/QuickText.object
+    - objects/QuickTextUsage/QuickTextUsage.object
+    - objects/Quote/Quote.object
+    - objects/QuoteLineItem/QuoteLineItem.object
+    - objects/Recommendation/Recommendation.object
+    - objects/RecordAction/RecordAction.object
+    - objects/RecordMergeHistory/RecordMergeHistory.object
+    - objects/Scorecard/Scorecard.object
+    - objects/ScorecardAssociation/ScorecardAssociation.object
+    - objects/ScorecardMetric/ScorecardMetric.object
+    - objects/ScratchOrgInfo/ScratchOrgInfo.object
+    - objects/Seller/Seller.object
+    - objects/ServiceContract/ServiceContract.object
+    - objects/Site/Site.object
+    - objects/SocialPersona/SocialPersona.object
+    - objects/SocialPost/SocialPost.object
+    - objects/Solution/Solution.object
+    - objects/StreamActivityAccess/StreamActivityAccess.object
+    - objects/StreamingChannel/StreamingChannel.object
+    - objects/Task/Task.object
+    - objects/Topic/Topic.object
+    - objects/TopicAssignment/TopicAssignment.object
+    - objects/TrialEnvironmentSignup/TrialEnvironmentSignup.object
+    - objects/User/User.object
+    - objects/UserExternalCredential/UserExternalCredential.object
+    - objects/UserProvisioningRequest/UserProvisioningRequest.object
+    - objects/WorkBadge/WorkBadge.object
+    - objects/WorkBadgeDefinition/WorkBadgeDefinition.object
+    - objects/WorkOrder/WorkOrder.object
+    - objects/WorkOrderLineItem/WorkOrderLineItem.object
+    - objects/WorkPlan/WorkPlan.object
+    - objects/WorkPlanTemplate/WorkPlanTemplate.object
+    - objects/WorkPlanTemplateEntry/WorkPlanTemplateEntry.object
+    - objects/WorkStep/WorkStep.object
+    - objects/WorkStepTemplate/WorkStepTemplate.object
+    - objects/WorkThanks/WorkThanks.object
+    - objects/Account/listViews/AllAccounts.listView
+    - objects/Account/listViews/MyAccounts.listView
+    - objects/Account/listViews/NewThisWeek.listView
+    - objects/AccountBrand/listViews/All_Account_Brands.listView
+    - objects/ActiveScratchOrg/listViews/All_Active_Scratch_Orgs.listView
+    - objects/ActiveScratchOrg/listViews/My_Active_Scratch_Orgs.listView
+    - objects/Activity/listViews/MyActivities.listView
+    - objects/Activity/listViews/MyDelegatedActivities.listView
+    - objects/Activity/listViews/MyTeamsActivities.listView
+    - objects/Activity/listViews/TodaysTasks.listView
+    - objects/Activity/listViews/UpcomingEvents.listView
+    - objects/Asset/listViews/AllAssets.listView
+    - objects/AuthorizationForm/listViews/All_AuthorizationForms.listView
+    - objects/AuthorizationFormConsent/listViews/All_AuthorizationFormConsents.listView
+    - objects/AuthorizationFormDataUse/listViews/All_AuthorizationFormDataUses.listView
+    - objects/AuthorizationFormText/listViews/All_AuthorizationFormText.listView
+    - objects/BusinessBrand/listViews/All_BusinessBrands.listView
+    - objects/Campaign/listViews/AllActiveCampaigns.listView
+    - objects/Campaign/listViews/MyActiveCampaigns.listView
+    - objects/Case/listViews/AllOpenCases.listView
+    - objects/Case/listViews/MyCases.listView
+    - objects/Case/listViews/MyOpenCases.listView
+    - objects/ChannelProgram/listViews/All_Channel_Programs.listView
+    - objects/ChannelProgram/listViews/My_Channel_Programs.listView
+    - objects/ChannelProgramLevel/listViews/All_Channel_Program_Levels.listView
+    - objects/ChannelProgramLevel/listViews/My_Channel_Program_Levels.listView
+    - objects/CollaborationGroup/listViews/All_ChatterGroups.listView
+    - objects/CommSubscription/listViews/All_CommSubscriptions.listView
+    - objects/CommSubscriptionChannelType/listViews/All_CommSubscriptionChannelTypes.listView
+    - objects/CommSubscriptionConsent/listViews/All_CommSubscriptionConsents.listView
+    - objects/CommSubscriptionTiming/listViews/All_CommSubscriptionTimings.listView
+    - objects/Contact/listViews/AllContacts.listView
+    - objects/Contact/listViews/BirthdaysThisMonth.listView
+    - objects/Contact/listViews/NewThisWeek.listView
+    - objects/ContactPointConsent/listViews/All_ContactPointConsents.listView
+    - objects/ContactPointTypeConsent/listViews/All_ContactPointTypeConsents.listView
+    - objects/ContactRequest/listViews/My_ContactRequests.listView
+    - objects/Contract/listViews/AllActivatedContracts.listView
+    - objects/Contract/listViews/AllContracts.listView
+    - objects/Contract/listViews/AllDraftContracts.listView
+    - objects/Contract/listViews/AllInApprovalContracts.listView
+    - objects/Contract/listViews/MyActivatedContracts.listView
+    - objects/Contract/listViews/MyDraftContracts.listView
+    - objects/Contract/listViews/MyInApprovalContracts.listView
+    - objects/Customer/listViews/All_Customers.listView
+    - objects/DataUseLegalBasis/listViews/All_DataUseLegalBases.listView
+    - objects/DataUsePurpose/listViews/All_DataUsePurposes.listView
+    - objects/DelegatedAccount/listViews/All_External_Managed_Accounts.listView
+    - objects/DelegatedAccount/listViews/My_External_Managed_Accounts.listView
+    - objects/EngagementChannelType/listViews/All_EngagementChannelTypes.listView
+    - objects/Entitlement/listViews/All_Entitlements.listView
+    - objects/Event/listViews/MyActivities.listView
+    - objects/Event/listViews/MyDelegatedActivities.listView
+    - objects/Event/listViews/MyTeamsActivities.listView
+    - objects/Event/listViews/TodaysTasks.listView
+    - objects/Event/listViews/UpcomingEvents.listView
+    - objects/FlowOrchestrationInstance/listViews/All_Orchestration_Instances.listView
+    - objects/FlowOrchestrationWorkItem/listViews/ALL_Open_Work_Items.listView
+    - objects/FlowOrchestrationWorkItem/listViews/All_Work_Items.listView
+    - objects/Idea/listViews/Ideas_Last_7_Days.listView
+    - objects/Lead/listViews/AllOpenLeads.listView
+    - objects/Lead/listViews/MyUnreadLeads.listView
+    - objects/Lead/listViews/TodaysLeads.listView
+    - objects/LocationTrustMeasure/listViews/AllLocationTrustMeasures.listView
+    - objects/NamespaceRegistry/listViews/All_Namespace_Registries.listView
+    - objects/Opportunity/listViews/AllOpportunities.listView
+    - objects/Opportunity/listViews/ClosingNextMonth.listView
+    - objects/Opportunity/listViews/ClosingThisMonth.listView
+    - objects/Opportunity/listViews/Default_Opportunity_Pipeline.listView
+    - objects/Opportunity/listViews/MyOpportunities.listView
+    - objects/Opportunity/listViews/NewThisWeek.listView
+    - objects/Opportunity/listViews/Won.listView
+    - objects/Order/listViews/AllActivatedOrders.listView
+    - objects/Order/listViews/AllDraftOrders.listView
+    - objects/Order/listViews/AllOrders.listView
+    - objects/Order/listViews/EnterpriseOrders.listView
+    - objects/PartnerFundAllocation/listViews/All_Partner_Fund_Allocations.listView
+    - objects/PartnerFundAllocation/listViews/My_Partner_Fund_Allocations.listView
+    - objects/PartnerFundClaim/listViews/All_Partner_Fund_Claims.listView
+    - objects/PartnerFundClaim/listViews/My_Partner_Fund_Claims.listView
+    - objects/PartnerFundRequest/listViews/All_Partner_Fund_Requests.listView
+    - objects/PartnerFundRequest/listViews/My_Partner_Fund_Requests.listView
+    - objects/PartnerMarketingBudget/listViews/All_Partner_Marketing_Budgets.listView
+    - objects/PartnerMarketingBudget/listViews/My_Partner_Marketing_Budgets.listView
+    - objects/PartyConsent/listViews/All_PartyConsents.listView
+    - objects/ProcessException/listViews/all_process_exceptions.listView
+    - objects/Product2/listViews/AllProducts.listView
+    - objects/Quote/listViews/mine.listView
+    - objects/Recommendation/listViews/All_Recommendations.listView
+    - objects/Scorecard/listViews/AllScorecards.listView
+    - objects/Scorecard/listViews/MyScorecards.listView
+    - objects/ScratchOrgInfo/listViews/All_Scratch_Org_Infos.listView
+    - objects/ScratchOrgInfo/listViews/My_Scratch_Org_Infos.listView
+    - objects/Seller/listViews/All_Sellers.listView
+    - objects/ServiceContract/listViews/All_ServiceContracts.listView
+    - objects/SocialPersona/listViews/AllSocialPersonas.listView
+    - objects/SocialPost/listViews/AllSocialPosts.listView
+    - objects/Solution/listViews/AllReviewedSolutions.listView
+    - objects/Solution/listViews/AllUnreviewedSolutions.listView
+    - objects/Task/listViews/MyActivities.listView
+    - objects/Task/listViews/MyDelegatedActivities.listView
+    - objects/Task/listViews/MyTeamsActivities.listView
+    - objects/Task/listViews/TodaysTasks.listView
+    - objects/Task/listViews/UpcomingEvents.listView
+    - objects/User/listViews/ActiveUsers.listView
+    - objects/User/listViews/AdminUsers.listView
+    - objects/User/listViews/AllUsers.listView
+    - objects/WorkOrder/listViews/All_WorkOrders.listView
+    - objects/WorkOrder/listViews/My_WorkOrders.listView
+    - objects/Account/webLinks/AltavistaNews.webLink
+    - objects/Account/webLinks/GoogleMaps.webLink
+    - objects/Account/webLinks/GoogleNews.webLink
+    - objects/Account/webLinks/GoogleSearch.webLink
+    - objects/Account/webLinks/HooversProfile.webLink
+    - objects/Account/webLinks/YahooMaps.webLink
+    - objects/Campaign/webLinks/ViewAllCampaignMembers.webLink
+    - objects/Campaign/webLinks/ViewCampaignInfluenceReport.webLink
+    - objects/Contact/webLinks/GoogleMaps.webLink
+    - objects/Contact/webLinks/GoogleSearch.webLink
+    - objects/Contact/webLinks/SendGmail.webLink
+    - objects/Contact/webLinks/YahooMaps.webLink
+    - objects/Contact/webLinks/YahooWeather.webLink
+    - objects/Lead/webLinks/AltavistaNews.webLink
+    - objects/Lead/webLinks/GoogleMaps.webLink
+    - objects/Lead/webLinks/GoogleNews.webLink
+    - objects/Lead/webLinks/GoogleSearch.webLink
+    - objects/Lead/webLinks/HooversProfile.webLink
+    - objects/Lead/webLinks/SendGmail.webLink
+    - objects/Lead/webLinks/YahooMaps.webLink
+    - objects/Opportunity/webLinks/Add_Products.webLink
+    - objects/Order/webLinks/Add_Products.webLink
+    - objects/Quote/webLinks/Add_Products.webLink
+    - objects/Quote/webLinks/CreateOrder.webLink
+    - objects/Idea/recordTypes/InternalIdeasIdeaRecordType.recordType
+    - objects/Quote/fields/LBPCity__c.field
+    - objects/User/fieldSets/PersonalInfo_EPIM.fieldSet
+    - pages/AnswersHome.page
+    - pages/B2BCMEX_ESM_SelfService_ResetPassword.page
+    - pages/BandwidthExceeded.page
+    - pages/ChangePassword.page
+    - pages/CommunitiesLanding.page
+    - pages/CommunitiesLogin.page
+    - pages/CommunitiesSelfReg.page
+    - pages/CommunitiesSelfRegConfirm.page
+    - pages/CommunitiesTemplate.page
+    - pages/Exception.page
+    - pages/FileNotFound.page
+    - pages/ForgotPassword.page
+    - pages/ForgotPasswordConfirm.page
+    - pages/IdeasHome.page
+    - pages/InMaintenance.page
+    - pages/MicrobatchSelfReg.page
+    - pages/MyProfilePage.page
+    - pages/SiteLogin.page
+    - pages/SiteRegister.page
+    - pages/SiteRegisterConfirm.page
+    - pages/SiteTemplate.page
+    - pages/StdExceptionTemplate.page
+    - pages/Unauthorized.page
+    - pages/UnderConstruction.page
+    - permissionsetgroups/SFI_ESM_SelfService_Community_User.permissionsetgroup
+    - permissionsets/ESM_SelfService_Community_User.permissionset
+    - permissionsets/ESM_SelfService_External_User.permissionset
+    - profilePasswordPolicies/PT1_profilePasswordPolicy1653384480770.profilePasswordPolicy
+    - profileSessionSettings/PT1_profileSessionSetting1653384480949.profileSessionSetting
+    - profiles/Admin.profile
+    - profiles/Chatter External User.profile
+    - profiles/Chatter Free User.profile
+    - profiles/Chatter Moderator User.profile
+    - profiles/ContractManager.profile
+    - profiles/Customer Community Login User.profile
+    - profiles/Customer Community Plus Login User.profile
+    - profiles/Customer Community Plus User.profile
+    - profiles/Customer Community User.profile
+    - profiles/Guest License User.profile
+    - profiles/Guest.profile
+    - profiles/Identity User.profile
+    - profiles/MarketingProfile.profile
+    - profiles/Minimum Access - Salesforce.profile
+    - profiles/MyTestCommunity Profile.profile
+    - profiles/Partner Community Login User.profile
+    - profiles/Partner Community User.profile
+    - profiles/Read Only.profile
+    - profiles/Salesforce API Only System Integrations.profile
+    - profiles/SelfServicePostSale Profile.profile
+    - profiles/SolutionManager.profile
+    - profiles/Standard.profile
+    - profiles/StandardAul.profile
+    - quickActions/Case.LogACall.quickAction
+    - quickActions/Case.NewChildCase.quickAction
+    - quickActions/CollaborationGroup.NewGroupMember.quickAction
+    - quickActions/CollaborationGroup.NewGroupRecord.quickAction
+    - quickActions/FeedItem.NewTaskFromFeedItem.quickAction
+    - quickActions/GuestCommunityCase.quickAction
+    - quickActions/LogACall.quickAction
+    - quickActions/NewAccount.quickAction
+    - quickActions/NewCase.quickAction
+    - quickActions/NewCommunityCase.quickAction
+    - quickActions/NewContact.quickAction
+    - quickActions/NewEvent.quickAction
+    - quickActions/NewGroup.quickAction
+    - quickActions/NewLead.quickAction
+    - quickActions/NewNote.quickAction
+    - quickActions/NewOpportunity.quickAction
+    - quickActions/NewTask.quickAction
+    - quickActions/Opportunity.New_MultiSite_Order.quickAction
+    - quickActions/Opportunity.New_MultiSite_Quote.quickAction
+    - quickActions/Quote.SendEmail.quickAction
+    - quickActions/SendEmail.quickAction
+    - quickActions/Task.Defer.quickAction
+    - quickActions/Task.Defer_0.quickAction
+    - quickActions/Task.EditDescription.quickAction
+    - quickActions/Task.EditDescription_0.quickAction
+    - quickActions/Task.UpdatePriority.quickAction
+    - quickActions/Task.UpdatePriority_0.quickAction
+    - quickActions/Task.UpdateStatus.quickAction
+    - quickActions/Task.UpdateStatus_0.quickAction
+    - remoteSiteSettings/Callout.remoteSite
+    - remoteSiteSettings/EnableLWC.remoteSite
+    - remoteSiteSettings/EnableLWC1650527564444.remoteSite
+    - remoteSiteSettings/EnableLWCPreview.remoteSite
+    - remoteSiteSettings/EnableLWCVisual.remoteSite
+    - remoteSiteSettings/FlexCard.remoteSite
+    - remoteSiteSettings/GoogleAPI.remoteSite
+    - remoteSiteSettings/LWCCards.remoteSite
+    - remoteSiteSettings/LWCCards_Lightning.remoteSite
+    - remoteSiteSettings/MyDomain1.remoteSite
+    - remoteSiteSettings/MyDomain2.remoteSite
+    - remoteSiteSettings/StreamingAPI.remoteSite
+    - remoteSiteSettings/TMFAPI.remoteSite
+    - remoteSiteSettings/VF.remoteSite
+    - remoteSiteSettings/VfForceCom.remoteSite
+    - reportTypes/screen_flows_prebuilt_crt.reportType
+    - reports/unfiled$public/flow_screen_prebuilt_report.report
+    - reports/unfiled$public/SampleReportActiveUsers.report
+    - reports/unfiled$public/SampleReportCasesStatusbyRep.report
+    - reports/unfiled$public/SampleReportClosedSales.report
+    - reports/unfiled$public/SampleReportCompletedActivities.report
+    - reports/unfiled$public/SampleReportCustomReportsbyUser.report
+    - reports/unfiled$public/SampleReportDocumentLibrary.report
+    - reports/unfiled$public/SampleReportLastModifiedBy.report
+    - reports/unfiled$public/SampleReportLeadsbyLeadSource.report
+    - reports/unfiled$public/SampleReportLoginLeaderboard.report
+    - reports/unfiled$public/SampleReportLoginWallofShame.report
+    - reports/unfiled$public/SampleReportMonthtoDateTrending.report
+    - reports/unfiled$public/SampleReportofAccounts.report
+    - reports/unfiled$public/SampleReportofCases.report
+    - reports/unfiled$public/SampleReportofContacts.report
+    - reports/unfiled$public/SampleReportofDocuments.report
+    - reports/unfiled$public/SampleReportofLeads.report
+    - reports/unfiled$public/SampleReportofOpenTasks.report
+    - reports/unfiled$public/SampleReportofOpportunities.report
+    - reports/unfiled$public/SampleReportofReports.report
+    - reports/unfiled$public/SampleReportofSolutions.report
+    - reports/unfiled$public/SampleReportofTasksandActivities.report
+    - reports/unfiled$public/SampleReportOpenCasesByPriority.report
+    - reports/unfiled$public/SampleReportOpenDeals.report
+    - reports/unfiled$public/SampleReportPipelineByCloseMonth.report
+    - reports/unfiled$public/SampleReportPipelineHistory.report
+    - reports/unfiled$public/SampleReportSalesLeaderboard.report
+    - reports/unfiled$public/SampleReportSalesPipelinebyStage.report
+    - reports/unfiled$public/SampleReportsLeadsbyStatus.report
+    - reports/unfiled$public/SampleReportSolutionsAdded.report
+    - reports/unfiled$public/SampleReportTopAccounts.report
+    - reports/unfiled$public/SampleReportUsersLoggedIn.report
+    - roles/CEO.role
+    - roles/IAdmiCustomerPersonAccount.role
+    - roles/Sales_Person.role
+    - settings/Account.settings
+    - settings/AccountIntelligence.settings
+    - settings/Actions.settings
+    - settings/Activities.settings
+    - settings/Address.settings
+    - settings/Analytics.settings
+    - settings/Apex.settings
+    - settings/AppAnalytics.settings
+    - settings/AppExperience.settings
+    - settings/Archive.settings
+    - settings/Blockchain.settings
+    - settings/BusinessHours.settings
+    - settings/Campaign.settings
+    - settings/Case.settings
+    - settings/Chatter.settings
+    - settings/ChatterEmailsMD.settings
+    - settings/Communities.settings
+    - settings/Company.settings
+    - settings/ConnectedApp.settings
+    - settings/Content.settings
+    - settings/Contract.settings
+    - settings/ConversationalIntelligence.settings
+    - settings/Currency.settings
+    - settings/CustomerDataPlatform.settings
+    - settings/Deployment.settings
+    - settings/DevHub.settings
+    - settings/Discovery.settings
+    - settings/DocumentChecklist.settings
+    - settings/EAC.settings
+    - settings/EmailAdministration.settings
+    - settings/EmailIntegration.settings
+    - settings/EmailTemplate.settings
+    - settings/EmployeeUser.settings
+    - settings/EncryptionKey.settings
+    - settings/EnhancedNotes.settings
+    - settings/Entitlement.settings
+    - settings/Essentials.settings
+    - settings/Event.settings
+    - settings/ExperienceBundle.settings
+    - settings/ExternalServices.settings
+    - settings/FilesConnect.settings
+    - settings/FileUploadAndDownloadSecurity.settings
+    - settings/Flow.settings
+    - settings/Forecasting.settings
+    - settings/ForecastingObjectList.settings
+    - settings/Formula.settings
+    - settings/GoogleApps.settings
+    - settings/Ideas.settings
+    - settings/Industries.settings
+    - settings/InvocableAction.settings
+    - settings/IsvHammer.settings
+    - settings/Language.settings
+    - settings/LeadConfig.settings
+    - settings/LightningExperience.settings
+    - settings/Macro.settings
+    - settings/MapsAndLocation.settings
+    - settings/Mobile.settings
+    - settings/MyDomain.settings
+    - settings/Name.settings
+    - settings/Notifications.settings
+    - settings/ObjectLinking.settings
+    - settings/OmniChannel.settings
+    - settings/Opportunity.settings
+    - settings/Order.settings
+    - settings/Org.settings
+    - settings/Pardot.settings
+    - settings/PardotEinstein.settings
+    - settings/PartyDataModel.settings
+    - settings/PathAssistant.settings
+    - settings/Picklist.settings
+    - settings/PlatformEncryption.settings
+    - settings/Portals.settings
+    - settings/PredictionBuilder.settings
+    - settings/Privacy.settings
+    - settings/Product.settings
+    - settings/QuickText.settings
+    - settings/Quote.settings
+    - settings/RecommendationBuilder.settings
+    - settings/RecordPage.settings
+    - settings/RetailExecution.settings
+    - settings/Schema.settings
+    - settings/Search.settings
+    - settings/Security.settings
+    - settings/ServiceCloudVoice.settings
+    - settings/ServiceSetupAssistant.settings
+    - settings/Sharing.settings
+    - settings/Site.settings
+    - settings/SocialCustomerService.settings
+    - settings/SocialProfile.settings
+    - settings/SourceTracking.settings
+    - settings/Survey.settings
+    - settings/SystemNotification.settings
+    - settings/Territory2.settings
+    - settings/Trailhead.settings
+    - settings/TrialOrg.settings
+    - settings/UserEngagement.settings
+    - settings/UserInterface.settings
+    - settings/UserManagement.settings
+    - settings/Voice.settings
+    - settings/WebToX.settings
+    - settings/WorkDotCom.settings
+    - sharingRules/Account.sharingRules
+    - sharingRules/Asset.sharingRules
+    - sharingRules/Campaign.sharingRules
+    - sharingRules/Case.sharingRules
+    - sharingRules/Contact.sharingRules
+    - sharingRules/Individual.sharingRules
+    - sharingRules/Lead.sharingRules
+    - sharingRules/Opportunity.sharingRules
+    - sharingRules/Order.sharingRules
+    - sharingRules/Product2.sharingRules
+    - sharingRules/User.sharingRules
+    - siteDotComSites/MyTestCommunity1.site
+    - siteDotComSites/SelfServicePostSale1.site
+    - sites/MyTestCommunity.site
+    - sites/SelfServicePostSale.site
+    - standardValueSets/AccountContactMultiRoles.standardValueSet
+    - standardValueSets/AccountContactRole.standardValueSet
+    - standardValueSets/AccountOwnership.standardValueSet
+    - standardValueSets/AccountRating.standardValueSet
+    - standardValueSets/AccountType.standardValueSet
+    - standardValueSets/AssetStatus.standardValueSet
+    - standardValueSets/CampaignMemberStatus.standardValueSet
+    - standardValueSets/CampaignStatus.standardValueSet
+    - standardValueSets/CampaignType.standardValueSet
+    - standardValueSets/CaseContactRole.standardValueSet
+    - standardValueSets/CaseOrigin.standardValueSet
+    - standardValueSets/CasePriority.standardValueSet
+    - standardValueSets/CaseReason.standardValueSet
+    - standardValueSets/CaseStatus.standardValueSet
+    - standardValueSets/CaseType.standardValueSet
+    - standardValueSets/ContactRole.standardValueSet
+    - standardValueSets/ContractContactRole.standardValueSet
+    - standardValueSets/ContractStatus.standardValueSet
+    - standardValueSets/EntitlementType.standardValueSet
+    - standardValueSets/EventSubject.standardValueSet
+    - standardValueSets/EventType.standardValueSet
+    - standardValueSets/FiscalYearPeriodName.standardValueSet
+    - standardValueSets/FiscalYearPeriodPrefix.standardValueSet
+    - standardValueSets/FiscalYearQuarterName.standardValueSet
+    - standardValueSets/FiscalYearQuarterPrefix.standardValueSet
+    - standardValueSets/IdeaMultiCategory.standardValueSet
+    - standardValueSets/IdeaStatus.standardValueSet
+    - standardValueSets/IdeaThemeStatus.standardValueSet
+    - standardValueSets/Industry.standardValueSet
+    - standardValueSets/LeadSource.standardValueSet
+    - standardValueSets/LeadStatus.standardValueSet
+    - standardValueSets/OpportunityCompetitor.standardValueSet
+    - standardValueSets/OpportunityStage.standardValueSet
+    - standardValueSets/OpportunityType.standardValueSet
+    - standardValueSets/OrderStatus.standardValueSet
+    - standardValueSets/OrderType.standardValueSet
+    - standardValueSets/PartnerRole.standardValueSet
+    - standardValueSets/Product2Family.standardValueSet
+    - standardValueSets/QuickTextCategory.standardValueSet
+    - standardValueSets/QuickTextChannel.standardValueSet
+    - standardValueSets/QuoteStatus.standardValueSet
+    - standardValueSets/RoleInTerritory2.standardValueSet
+    - standardValueSets/SalesTeamRole.standardValueSet
+    - standardValueSets/Salutation.standardValueSet
+    - standardValueSets/ServiceContractApprovalStatus.standardValueSet
+    - standardValueSets/SocialPostClassification.standardValueSet
+    - standardValueSets/SocialPostEngagementLevel.standardValueSet
+    - standardValueSets/SocialPostReviewedStatus.standardValueSet
+    - standardValueSets/SolutionStatus.standardValueSet
+    - standardValueSets/TaskPriority.standardValueSet
+    - standardValueSets/TaskStatus.standardValueSet
+    - standardValueSets/TaskSubject.standardValueSet
+    - standardValueSets/TaskType.standardValueSet
+    - staticresources/cs_vlocity_webfonts_main.resource
+    - staticresources/SelfService_CompanyLogo.resource
+    - staticresources/SelfService_GreenTick.resource
+    - staticresources/SelfService_LogOut_Button.resource
+    - staticresources/SiteSamples.resource
+    - staticresources/SNA_SelfServicePostSale1_sf_default_cdn_B2keZ.resource
+    - topicsForObjects/%vlocity_namespace%__AccountAdServer__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AccountAppliedPromotion__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AccountAppliedPromotionItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AccountBalance__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AccountDiscount__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AccountDiscountItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AccountDiscountPricing__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AccountHold__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AccountOffer__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AccountPriceAdjustment__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AccountProductRollup__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ActivityContentDocument__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ActivityTemplate__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AdCreativeSizeType__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AdminTabLayout__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AdServer__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AdSpaceCreativeSizeType__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AdSpaceGroupMember__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AdSpaceSpecification__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Application__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ApplicationPartyRelationship__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ApplicationTemplate__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Assessment__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AssessmentAnswer__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AssessmentQuestion__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AssetPricingAdjustment__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AssignmentRule__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AsyncProcess__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AsyncProcessJob__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AsyncProcessStep__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Attribute__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AttributeAssignment__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AttributeAssignmentExport__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AttributeAssignmentRule__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AttributeBinding__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__AttributeCategory__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__BusinessSite__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__BusinessSiteOffering__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CachedAPIChange__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CachedAPIChangeEntry__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CachedAPIMigrate__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CachedAPIResponse__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CachedAPIResponseOffers__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CachedDataSet__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CachedFilterableAttribute__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CachedKeyMapping__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CachedPriceBookEntryAttributeValue__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CachedProduct2Translation__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CachedPromotionTranslation__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CalculationMatrix__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CalculationMatrixColumn__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CalculationMatrixDimension__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CalculationMatrixRow__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CalculationMatrixVersion__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CalculationProcedure__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CalculationProcedureStep__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CalculationProcedureVariable__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CalculationProcedureVersion__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CallbackURI__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CampaignContentDocument__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CampaignMemberActionLog__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Cart__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CartItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Catalog__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CatalogProductRelationship__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CatalogRelationship__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ChargeMeasurement__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CompiledAttributeOverride__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ConfigurationSnapshot__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ConsoleActionLog__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContextAction__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContextDimension__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContextMapping__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContextMappingArgument__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContextRule__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContextRuleset__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContextScope__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContractDocumentCollection__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContractEnvelope__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContractGroup__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContractLineItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContractRecipient__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContractSection__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContractTerm__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContractType__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContractTypeSetting__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContractTypeTerm__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContractVersion__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContractVersionDiscount__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContractVersionDiscountItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ContractVersionDiscountPricing__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CustomerInteraction__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__CustomerInteractionTopic__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Datastore__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__DecompositionRelationship__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Document__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__DocumentClause__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__DocumentSection__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__DocumentTemplate__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__DocumentTemplateElement__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__DocumentTemplateSection__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__DocumentTemplateSectionCondition__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__DocumentToken__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__DRBatchQueue__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__DRBulkData__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__DRBundle__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__DRMapItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Dunning__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Element__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__EntityFilter__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__EntityFilterCondition__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__EntityFilterConditionArgument__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__EntityFilterMember__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Error_Code__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Error_Code_Namespace__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ErrorCode__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ErrorCodeNamespace__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__EventDuringInteraction__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__EventMessage__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ExpandedInteractionLog__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__FulfilmentDiagram__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__FulfilmentDiagramOPD__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__FulfilmentRequest__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__FulfilmentRequestDecompRelationship__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__FulfilmentRequestLine__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__FulfilmentRequestLineDecompRelationship__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__FulfilmentRequestLineRelationship__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__FulfilmentRequestLineSourceRootOrderItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__GenericDocument__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__GenericEnvelope__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__GenericRecipient__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__GraphClone__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Household__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__InboundRESTInterface__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__IntegrationRetryPolicy__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Interface_BillingInfo__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Interface_DRGeneric__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Interface_ProductAttribute__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__InterfaceImplementation__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__InterfaceImplementationDetail__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__InventoryItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__InventoryItemDecompositionRelationship__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ItemImplementation__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Jurisdiction__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__LargeDataStore__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__LineOfBusiness__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ManualQueue__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ManualQueueMember__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__MediaContentTitle__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__MediaProperty__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ObjectAppliedResult__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ObjectClass__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ObjectElement__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ObjectFacet__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ObjectFieldAttribute__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ObjectLayout__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ObjectRuleAssignment__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ObjectSection__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OfferingProcedure__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OfferMigrationComponentMapping__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OfferMigrationPlan__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OfferPricingComponent__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OmniScript__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OmniScriptDefinition__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OmniScriptInstance__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OmniUserSession__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OperatingHours__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OperatingHoursEntry__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OpportunityAppliedPromotion__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OpportunityAppliedPromotionItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OpportunityDiscount__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OpportunityDiscountItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OpportunityDiscountPricing__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OpportunityGroup__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OpportunityLineItemRelationship__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OpportunityMember__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OpportunityPriceAdjustment__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrchestrationDependency__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrchestrationDependencyDefinition__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrchestrationItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrchestrationItemDefinition__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrchestrationItemRelationship__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrchestrationItemSource__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrchestrationPlan__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrchestrationPlanDefinition__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrchestrationQueue__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrchestrationQueueAssignmentRule__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrchestrationScenario__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrchestrationSchedulerImplementation__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrderAppliedPromotion__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrderAppliedPromotionItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrderDiscount__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrderDiscountItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrderDiscountPricing__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrderGroup__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrderItemAdPlacement__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrderItemPriceAdjustment__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrderItemRelationship__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrderMember__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrderPayment__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrderPriceAdjustment__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrderProductRollup__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OrderRelationship__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OutboundConfiguration__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__OverrideDefinition__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Party__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Party_Association__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PartyMergeRequest__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PartyRelationship__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PartyRelationshipType__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PaymentAdjustment__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PaymentMethod__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PaymentPlan__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Picklist__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PicklistSelectionEntry__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PicklistValue__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Premises__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PremisesPartyRelationship__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PriceList__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PriceListEntry__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PricingComponent__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PricingComponentRelationship__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PricingElement__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PricingPlan__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PricingPlanStep__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PricingVariable__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PricingVariableBinding__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ProductAttribXN__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ProductAvailability__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ProductChildItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ProductConfigurationProcedure__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ProductEligibility__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ProductRelationship__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ProductRelationshipType__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ProductTemplate__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ProfileCategoryAssignment__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ProfilingSegment__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ProfilingSegmentCategory__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Project__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ProjectItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Promotion__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PromotionApplicableProduct__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PromotionIncludedProduct__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PromotionItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__PromotionPricingAlteration__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__QuoteAppliedPromotion__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__QuoteAppliedPromotionItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__QuoteDiscount__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__QuoteDiscountItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__QuoteDiscountPricing__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__QuoteGroup__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__QuoteLineItemAdPlacement__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__QuoteLineItemPricingAdjustment__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__QuoteLineItemRelationship__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__QuoteMember__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__QuotePricingAdjustment__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__QuoteProductRollup__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__RelationshipGraph__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__RelationshipGraphNodeType__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__RelationshipGraphTraversal__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Rule__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__RuleAction__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__RuleAssignment__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__RuleFilter__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__RuleProperty__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__RuleVariable__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ScreeningRule__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ScreeningRuleGroup__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__SecurityDeposit__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ServicePoint__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__SpecTemplateAttributeMapping__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__SpecTemplateMapping__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Stage__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Statement__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__StatementLineItem__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__StateTransition__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__String__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__StringTranslation__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Subscription__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__SyncDeltaObject__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__SyncDeltaSnapshot__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__System__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__SystemInterface__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__TestResult__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__ThorOrchestrationQueue__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__TimePlan__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__TimePolicy__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__UIFacet__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__UISection__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__UserAdServer__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__UserCalendar__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__UserNotification__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityAction__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityAPIMetadata__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityAttachment__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityCard__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityContractServiceLog__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityDataPack__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityDocuSignBranding__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityDocuSignTemplate__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityErrorLogEntry__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityFunction__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityFunctionArgument__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityScheduledJob__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocitySearchWidgetActionsSetup__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocitySearchWidgetSetup__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityState__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityStateModel__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityStateModelVersion__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityStateTransition__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityStateTransitionRule__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocitySystemLog__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityTrackingComponent__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityTrackingEntry__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityTrackingGroup__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityUILayout__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityUITemplate__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityWebTrackingConfiguration__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityWebTrackingEventType__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VqMachine__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VqMachineResource__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VqResource__c.topicsForObjects
+    - topicsForObjects/Account.topicsForObjects
+    - topicsForObjects/Asset.topicsForObjects
+    - topicsForObjects/Campaign.topicsForObjects
+    - topicsForObjects/Case.topicsForObjects
+    - topicsForObjects/ChangeRequest.topicsForObjects
+    - topicsForObjects/ChannelProgram.topicsForObjects
+    - topicsForObjects/ChannelProgramLevel.topicsForObjects
+    - topicsForObjects/Contact.topicsForObjects
+    - topicsForObjects/ContentDocument.topicsForObjects
+    - topicsForObjects/Contract.topicsForObjects
+    - topicsForObjects/Event.topicsForObjects
+    - topicsForObjects/Incident.topicsForObjects
+    - topicsForObjects/Lead.topicsForObjects
+    - topicsForObjects/myobj__c.topicsForObjects
+    - topicsForObjects/Opportunity.topicsForObjects
+    - topicsForObjects/Order.topicsForObjects
+    - topicsForObjects/PartnerFundAllocation.topicsForObjects
+    - topicsForObjects/PartnerFundClaim.topicsForObjects
+    - topicsForObjects/PartnerFundRequest.topicsForObjects
+    - topicsForObjects/PartnerMarketingBudget.topicsForObjects
+    - topicsForObjects/Problem.topicsForObjects
+    - topicsForObjects/Solution.topicsForObjects
+    - topicsForObjects/Task.topicsForObjects
+    - topicsForObjects/WorkOrder.topicsForObjects
+    - topicsForObjects/WorkOrderLineItem.topicsForObjects
+    - topicsForObjects/WorkPlan.topicsForObjects
+    - topicsForObjects/WorkPlanTemplate.topicsForObjects
+    - topicsForObjects/WorkPlanTemplateEntry.topicsForObjects
+    - topicsForObjects/WorkStep.topicsForObjects
+    - topicsForObjects/WorkStepTemplate.topicsForObjects
+    - translations/en_US.translation
+    - userCriteria/MyTestCommunity.Customer_Members.userCriteria
+    - userCriteria/MyTestCommunity.Members_without_contribution.userCriteria
+    - userCriteria/MyTestCommunity.Partner_and_Customer_members.userCriteria
+    - workflows/Case.workflow
+    - workflows/OrderItem.workflow
+    - workflows/QuoteLineItem.workflow
+VlocityTypesToFetch:
+
+SalesforceTypesToFetch:
+    - AccessControlPolicy
+    - ActionLinkGroupTemplate
+    - AIAssistantTemplate
+    - AnalyticSnapshot
+    - ApexClass
+    - ApexComponent
+    - ApexPage
+    - ApexTestSuite
+    - ApexTrigger
+    - AppMenu
+    - ApprovalProcess
+    - AssignmentRules
+    - AuraDefinitionBundle
+    - AuthProvider
+    - AutoResponseRules
+    - BrandingSet
+    - BusinessProcess
+    - CallCenter
+    - CampaignInfluenceModel
+    - CaseSubjectParticle
+    - Certificate
+    - ChannelLayout
+    - ChatterExtension
+    - CleanDataService
+    - CMSConnectSource
+    - Community
+    - CommunityTemplateDefinition
+    - CommunityThemeDefinition
+    - CompactLayout
+    - ConnectedApp
+    - ContentAsset
+    - CorsWhitelistOrigin
+    - CspTrustedSite
+    - CustomApplication
+    - CustomApplicationComponent
+    - CustomFeedFilter
+    - CustomField
+    - CustomHelpMenuSection
+    - CustomLabels
+    - CustomMetadata
+    - CustomNotificationType
+    - CustomObject
+    - CustomPageWebLink
+    - CustomPermission
+    - CustomSite
+    - CustomTab
+    - Dashboard
+    - DataCategoryGroup
+    - DelegateGroup
+    - Document
+    - DuplicateRule
+    - EclairGeoData
+    - EmailServicesFunction
+    - EmailTemplate
+    - EmbeddedServiceBranding
+    - EmbeddedServiceConfig
+    - EmbeddedServiceFieldService
+    - EmbeddedServiceFlowConfig
+    - EmbeddedServiceLiveAgent
+    - EntitlementProcess
+    - EntitlementTemplate
+    - EntityImplements
+    - EscalationRules
+    - EventDelivery
+    - EventSubscription
+    - ExternalDataSource
+    - ExternalServiceRegistration
+    - FeatureParameterBoolean
+    - FeatureParameterDate
+    - FeatureParameterInteger
+    - FieldSet
+    - FlexiPage
+    - Flow
+    - FlowCategory
+    - Form
+    - FormSection
+    - GlobalPicklistValue
+    - GlobalValueSet
+    - GlobalValueSetTranslation
+    - Group
+    - HomePageComponent
+    - HomePageLayout
+    - Index
+    - IntegrationHubSettingsType
+    - KeywordList
+    - Layout
+    - Letterhead
+    - LicenseDefinition
+    - LightningBolt
+    - LightningComponentBundle
+    - LightningExperienceTheme
+    - ListView
+    - LiveChatAgentConfig
+    - LiveChatButton
+    - LiveChatDeployment
+    - LiveChatSensitiveDataRule
+    - ManagedTopics
+    - MatchingRules
+    - MilestoneType
+    - ModerationRule
+    - NamedCredential
+    - Network
+    - NetworkBranding
+    - Orchestration
+    - OrchestrationContext
+    - PathAssistant
+    - PermissionSet
+    - PermissionSetGroup
+    - PicklistValue
+    - PlatformCachePartition
+    - PlatformEventChannel
+    - Portal
+    - PostTemplate
+    - PresenceDeclineReason
+    - PresenceUserConfig
+    - Profile
+    - ProfilePasswordPolicy
+    - ProfileSessionSetting
+    - Queue
+    - QueueRoutingConfig
+    - QuickAction
+    - RecommendationStrategy
+    - RecordActionDeployment
+    - RecordType
+    - RemoteSiteSetting
+    - Report
+    - ReportType
+    - Role
+    - SamlSsoConfig
+    - ServiceChannel
+    - ServicePresenceStatus
+    - Settings
+    - SharingCriteriaRule
+    - SharingOwnerRule
+    - SharingReason
+    - SharingSet
+    - SharingTerritoryRule
+    - SiteDotCom
+    - Skill
+    - StandardValue
+    - StandardValueSet
+    - StandardValueSetTranslation
+    - StaticResource
+    - SynonymDictionary
+    - Territory
+    - Territory2
+    - Territory2Model
+    - Territory2Rule
+    - Territory2Type
+    - TimeSheetTemplate
+    - TopicsForObjects
+    - TransactionSecurityPolicy
+    - Translations
+    - UiPlugin
+    - UserCriteria
+    - ValidationRule
+    - WaveApplication
+    - WaveDashboard
+    - WaveDataflow
+    - WaveDataset
+    - WaveLens
+    - WaveRecipe
+    - WaveTemplateBundle
+    - WaveXmd
+    - WebLink
+    - Workflow
+    - WorkflowAlert
+    - WorkflowFieldUpdate
+    - WorkflowFlowAction
+    - WorkflowKnowledgePublish
+    - WorkflowOutboundMessage
+    - WorkflowRule
+    - WorkflowSend
+    - WorkflowTask

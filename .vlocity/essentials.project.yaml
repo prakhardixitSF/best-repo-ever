@@ -1,0 +1,22 @@
+Name: Essentials
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - CpqConfigurationSetup/CPQ Cart Preview Modal Use API
+    - CpqConfigurationSetup/CPQ Toast Message Log Level
+    - CpqConfigurationSetup/CpqCachePvtKey
+    - CpqConfigurationSetup/CpqNextPricingPlan
+    - VlocityCard/cpqAssetViewerContainer
+    - lwc/cfCpqAdvancedSearchLineItem
+    - lwc/cfCpqAssetViewerAdvancedSearch
+    - lwc/cfCpqAssetViewerLineItem
+    - lwc/cfCpqAssetViewerSelectAllAssets
+    - lwc/cfCpqCartInlineChildPromoForAssetViewer
+    - lwc/cfCpqPromotionDetailViewForAssetViewer
+    - lwc/cfCpqSpinner
+    - lwc/cPQAssetViewerQuoteFlowMultiLanguage
+VlocityTypesToFetch:
+    - CpqConfigurationSetup
+    - VlocityCard
+SalesforceTypesToFetch:
+    - LightningComponentBundle
+    - RemoteSiteSetting

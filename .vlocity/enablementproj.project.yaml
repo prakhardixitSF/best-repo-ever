@@ -1,0 +1,22 @@
+Name: EnablementProj
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - DataRaptor/CPQCreateOpportunity
+    - DataRaptor/CPQGetGroupsToCreateList
+    - DataRaptor/CPQGetProductsFromAssets
+    - DataRaptor/cpqGetRecordType
+    - DataRaptor/CreateOrderRequestData
+    - DataRaptor/CreateQuoteRequestData
+    - DataRaptor/GetAccountFromAsset
+    - DataRaptor/GetExistingAssetsFromOrderItem
+    - IntegrationProcedure/CPQ_CreateOrder
+    - IntegrationProcedure/CPQ_StartBulkCreateGroups
+    - OmniScript/CPQ_AssetViewerOrderFlow_Multi-Language
+    - OmniScript/CPQ_ChangeToOrder_Multi-Language
+    - OmniScript/CPQ_SingleMove_Multi-Language
+    - DataRaptor/UpdateOrderAccount
+VlocityTypesToFetch:
+    - DataRaptor
+    - IntegrationProcedure
+    - OmniScript
+SalesforceTypesToFetch:

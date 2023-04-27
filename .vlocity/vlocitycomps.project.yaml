@@ -1,0 +1,13 @@
+Name: VlocityComps
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - VlocityCard/cpqAssetViewerContainer
+    - lwc/cfCpqAssetViewerContainer
+    - profiles/Admin.profile
+VlocityTypesToFetch:
+    - VlocityCard
+SalesforceTypesToFetch:
+    - FlexiPage
+    - LightningComponentBundle
+    - Profile
+    - Settings
